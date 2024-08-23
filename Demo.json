@@ -177,6 +177,249 @@
         "name": "assets\\tiles\\tile_2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/background/night_background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background\\night_background.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/background/moon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background\\moon.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/idle/moving_right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\idle\\moving_right_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/idle/moving_right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\idle\\moving_right_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/idle/moving_right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\idle\\moving_right_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/idle/moving_right_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\idle\\moving_right_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/idle/moving_right_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\idle\\moving_right_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/idle/moving_right_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\idle\\moving_right_6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/idle/blink_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\idle\\blink_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/idle/blink_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\idle\\blink_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/idle/blink_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\idle\\blink_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/idle/blink_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\idle\\blink_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/idle/blink_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\idle\\blink_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/idle/blink_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\idle\\blink_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/moving_left/moving_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\moving_left\\moving_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/moving_left/moving_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\moving_left\\moving_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/moving_left/moving_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\moving_left\\moving_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/moving_left/moving_left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\moving_left\\moving_left_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/moving_left/moving_left_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\moving_left\\moving_left_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/moving_left/moving_left_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\moving_left\\moving_left_6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/moving_right/moving_right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\moving_right\\moving_right_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/moving_right/moving_right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\moving_right\\moving_right_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/moving_right/moving_right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\moving_right\\moving_right_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/moving_right/moving_right_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\moving_right\\moving_right_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/moving_right/moving_right_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\moving_right\\moving_right_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/moving_right/moving_right_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\moving_right\\moving_right_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/jumping/jumping.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\jumping\\jumping.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -191,8 +434,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
+      "mangledName": "Prologue",
+      "name": "Prologue",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -208,7 +451,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9610368693714727,
+        "zoomFactor": 1.0615714305219992,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -223,10 +466,10 @@
           "layer": "",
           "name": "Player",
           "persistentUuid": "bce34056-547f-49c3-b42b-a879bb67d9d4",
-          "width": 30.728476821192054,
-          "x": 71,
-          "y": 473,
-          "zOrder": 1,
+          "width": 30.72847682119205,
+          "x": 27,
+          "y": 632,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -241,7 +484,7 @@
           "persistentUuid": "0bfc7b2b-2dc1-4658-bbf0-61920823a7d9",
           "width": 0,
           "x": 0,
-          "y": 643,
+          "y": 644,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -257,7 +500,7 @@
           "persistentUuid": "33ffebdb-e172-4f11-ae50-8a7c90172230",
           "width": 0,
           "x": 128,
-          "y": 643,
+          "y": 644,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -274,7 +517,7 @@
           "persistentUuid": "aa39e361-ccb0-491a-8843-128a8a0357de",
           "width": 77,
           "x": 389,
-          "y": 598,
+          "y": 599,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -291,8 +534,41 @@
           "persistentUuid": "64a21046-e48d-499e-846c-8f497a142379",
           "width": 575,
           "x": 532,
-          "y": 658,
+          "y": 659,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 512,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "background",
+          "persistentUuid": "261579d3-719d-48e5-80aa-3082c7464925",
+          "width": 2158,
+          "x": -493,
+          "y": -96,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Moon",
+          "persistentUuid": "f8a5ad2a-7d08-47ce-bbbd-8e472eaf2a77",
+          "width": 0,
+          "x": 488,
+          "y": 190,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -331,7 +607,7 @@
           ],
           "animations": [
             {
-              "name": "Idle",
+              "name": "idle",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -340,7 +616,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\player\\idle\\blink1.png",
+                      "image": "assets\\player\\idle\\blink_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -356,19 +632,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
+                            "x": 0,
                             "y": 7
                           },
                           {
-                            "x": 64,
+                            "x": 55,
                             "y": 7
                           },
                           {
-                            "x": 64,
+                            "x": 55,
                             "y": 58
                           },
                           {
-                            "x": 9,
+                            "x": 0,
                             "y": 58
                           }
                         ]
@@ -376,7 +652,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\player\\idle\\blink2.png",
+                      "image": "assets\\player\\idle\\blink_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -392,19 +668,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
+                            "x": 0,
                             "y": 7
                           },
                           {
-                            "x": 64,
+                            "x": 55,
                             "y": 7
                           },
                           {
-                            "x": 64,
+                            "x": 55,
                             "y": 58
                           },
                           {
-                            "x": 9,
+                            "x": 0,
                             "y": 58
                           }
                         ]
@@ -412,7 +688,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\player\\idle\\blink3.png",
+                      "image": "assets\\player\\idle\\blink_3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -428,19 +704,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
+                            "x": 0,
                             "y": 7
                           },
                           {
-                            "x": 64,
+                            "x": 55,
                             "y": 7
                           },
                           {
-                            "x": 64,
+                            "x": 55,
                             "y": 58
                           },
                           {
-                            "x": 9,
+                            "x": 0,
                             "y": 58
                           }
                         ]
@@ -448,7 +724,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\player\\idle\\blink4.png",
+                      "image": "assets\\player\\idle\\blink_4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -464,19 +740,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
+                            "x": 0,
                             "y": 7
                           },
                           {
-                            "x": 64,
+                            "x": 55,
                             "y": 7
                           },
                           {
-                            "x": 64,
+                            "x": 55,
                             "y": 58
                           },
                           {
-                            "x": 9,
+                            "x": 0,
                             "y": 58
                           }
                         ]
@@ -484,7 +760,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\player\\idle\\blink5.png",
+                      "image": "assets\\player\\idle\\blink_5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -500,19 +776,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
+                            "x": 0,
                             "y": 7
                           },
                           {
-                            "x": 64,
+                            "x": 55,
                             "y": 7
                           },
                           {
-                            "x": 64,
+                            "x": 55,
                             "y": 58
                           },
                           {
-                            "x": 9,
+                            "x": 0,
                             "y": 58
                           }
                         ]
@@ -520,7 +796,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\player\\idle\\blink6.png",
+                      "image": "assets\\player\\idle\\blink_6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -536,19 +812,163 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
+                            "x": 0,
                             "y": 7
                           },
                           {
-                            "x": 64,
+                            "x": 55,
                             "y": 7
                           },
                           {
-                            "x": 64,
+                            "x": 55,
                             "y": 58
                           },
                           {
-                            "x": 9,
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "moving left",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\player\\moving_left\\moving_left_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 7
+                          },
+                          {
+                            "x": 55,
+                            "y": 7
+                          },
+                          {
+                            "x": 55,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "moving right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\player\\moving_right\\moving_right_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 7
+                          },
+                          {
+                            "x": 55,
+                            "y": 7
+                          },
+                          {
+                            "x": 55,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jumping",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.52,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\player\\jumping\\jumping.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 7
+                          },
+                          {
+                            "x": 55,
+                            "y": 7
+                          },
+                          {
+                            "x": 55,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
                             "y": 58
                           }
                         ]
@@ -570,10 +990,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -638,10 +1058,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -707,11 +1127,82 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "background",
+          "texture": "assets\\background\\night_background.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Moon",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\background\\moon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 25
+                          },
+                          {
+                            "x": 131,
+                            "y": 25
+                          },
+                          {
+                            "x": 131,
+                            "y": 131
+                          },
+                          {
+                            "x": 25,
+                            "y": 131
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -730,35 +1221,183 @@
           },
           {
             "objectName": "high_ground"
+          },
+          {
+            "objectName": "background"
+          },
+          {
+            "objectName": "Moon"
           }
         ]
       },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
+                "value": "PlatformBehavior::IsJumping"
               },
               "parameters": [
-                ""
+                "Player",
+                "PlatformerObject"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "PlayerAuthentication::DisplayAuthenticationBanner"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                ""
+                "Player",
+                "Animation",
+                "=",
+                "\"Jumping\""
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"moving left\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
