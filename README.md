@@ -6,7 +6,7 @@ Game demo for the SMAUG project of the Digital Games course at FATEC Carapicuíb
 
 # BUILD
 
-Current Version 1.0.0: https://gd.games/games/c41e1f44-b188-4d40-b240-6617ff94fc59
+Current Version 1.0.0: https://gd.games/instant-builds/f9513c43-e738-45ce-965e-0864e82d3baa
 
 # DEVELOPED
 

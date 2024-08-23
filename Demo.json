@@ -52,8 +52,14 @@
     },
     "authorIds": [],
     "authorUsernames": [],
-    "categories": [],
-    "playableDevices": [],
+    "categories": [
+      "platformer"
+    ],
+    "playableDevices": [
+      "keyboard",
+      "gamepad",
+      "mobile"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
