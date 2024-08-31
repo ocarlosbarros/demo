@@ -420,6 +420,60 @@
         "name": "assets\\player\\jumping\\jumping.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "moving_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "moving_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "moving_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "moving_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "moving_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "moving_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "moving_right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "moving_right_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "moving_right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "moving_right_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "moving_right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "moving_right_3.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -451,7 +505,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47893418845352564,
+        "zoomFactor": 0.7619362677197614,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -873,12 +927,84 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\player\\moving_left\\moving_left_1.png",
+                      "image": "moving_left_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 7
+                          },
+                          {
+                            "x": 55,
+                            "y": 7
+                          },
+                          {
+                            "x": 55,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "moving_left_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 7
+                          },
+                          {
+                            "x": 55,
+                            "y": 7
+                          },
+                          {
+                            "x": 55,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "moving_left_3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -926,7 +1052,79 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\player\\moving_right\\moving_right_1.png",
+                      "image": "moving_right_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 7
+                          },
+                          {
+                            "x": 55,
+                            "y": 7
+                          },
+                          {
+                            "x": 55,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "moving_right_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 7
+                          },
+                          {
+                            "x": 55,
+                            "y": 7
+                          },
+                          {
+                            "x": 55,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "moving_right_3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1472,7 +1670,7 @@
               },
               "parameters": [
                 "",
-                "Right"
+                "d"
               ]
             }
           ],
@@ -1511,8 +1709,30 @@
               "parameters": [
                 "Player",
                 "-90",
-                "700",
+                "400",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Jumping\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::JumpSustainTime"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "=",
+                "0.2"
               ]
             }
           ]
