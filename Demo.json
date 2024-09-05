@@ -1417,7 +1417,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 2.3519382080458096,
+        "zoomFactor": 0.7872723651353851,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1739,6 +1739,22 @@
           "x": 46,
           "y": 388,
           "zOrder": 204,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "JumpCharge",
+          "persistentUuid": "c715eb46-545e-4257-9720-ab5c4646f06c",
+          "width": 0,
+          "x": 40,
+          "y": 348,
+          "zOrder": 205,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3111,6 +3127,47 @@
             "characterSize": 20,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "JumpCharge",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Jump Charge: 0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Jump Charge: 0",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -3124,6 +3181,9 @@
           },
           {
             "objectName": "JumpPower"
+          },
+          {
+            "objectName": "JumpCharge"
           },
           {
             "objectName": "StreetLight"
@@ -3383,12 +3443,6 @@
                 "",
                 "Space"
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -3398,8 +3452,8 @@
               },
               "parameters": [
                 "jumpCharge",
-                "+",
-                "jumpCharge + TimeDelta()"
+                "=",
+                "jumpCharge +  floor(TimeDelta() * 1000) "
               ]
             }
           ]
@@ -3441,7 +3495,29 @@
               "parameters": [
                 "jumpPower",
                 "=",
-                "jumpCharge * 100000"
+                "jumpCharge * 10"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "JumpCharge",
+                "Text",
+                "=",
+                "\"Jump Charge: \" + ToJSON(jumpCharge)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "JumpPower",
+                "Text",
+                "=",
+                "\"Jump Power: \" + ToJSON(jumpPower)"
               ]
             },
             {
@@ -3453,17 +3529,6 @@
                 "-90",
                 "jumpPower",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "JumpPower",
-                "Text",
-                "=",
-                "ToJSON(jumpPower)"
               ]
             },
             {
