@@ -1421,26 +1421,7 @@
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [
-        {
-          "folded": true,
-          "name": "jumpPower",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "name": "maxJump",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "name": "jumpCharge",
-          "type": "number",
-          "value": 0
-        }
-      ],
+      "variables": [],
       "instances": [
         {
           "angle": 0,
@@ -1767,14 +1748,33 @@
           "name": "Player",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "isCharging",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "maxJumpForce",
+              "type": "number",
+              "value": 4000
+            },
+            {
+              "folded": true,
+              "name": "jumpForce",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
+              "jumpSpeed": 400,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "ignoreDefaultControls": true,
-              "jumpSpeed": 500,
+              "ignoreDefaultControls": false,
               "maxSpeed": 150,
               "acceleration": 10000,
               "canGoDownFromJumpthru": true,
@@ -1797,7 +1797,7 @@
               "Left": "a",
               "Down": "s",
               "Right": "d",
-              "Jump": "",
+              "Jump": "Space",
               "Platformer": "PlatformerObject"
             }
           ],
@@ -3223,36 +3223,6 @@
                 "\"Layer\"",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "jumpPower",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "maxJump",
-                "=",
-                "1000"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "jumpCharge",
-                "=",
-                "0"
-              ]
             }
           ]
         },
@@ -3333,6 +3303,15 @@
           "conditions": [
             {
               "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
                 "value": "KeyPressed"
               },
               "parameters": [
@@ -3357,6 +3336,15 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            },
             {
               "type": {
                 "value": "KeyPressed"
@@ -3437,46 +3425,122 @@
           "conditions": [
             {
               "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::IsJumping"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
                 "value": "KeyPressed"
               },
               "parameters": [
                 "",
-                "Space"
+                "z"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "jumpForce",
+                "<=",
+                "Player.maxJumpForce"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "SetBooleanObjectVariable"
               },
               "parameters": [
-                "jumpCharge",
+                "Player",
+                "isCharging",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "jumpForce",
+                "+",
+                "Player.jumpForce + (TimeDelta() * 100)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "JumpPower",
+                "Text",
                 "=",
-                "jumpCharge +  floor(TimeDelta() * 1000) "
+                "\"Jump Power: \" + ToJSON(Player.jumpForce)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "jumpForce",
+                "=",
+                "Player.maxJumpForce"
               ]
             }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "KeyReleased"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "",
-                "Space"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "z"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                }
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -3490,12 +3554,13 @@
             },
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "AddForceAL"
               },
               "parameters": [
-                "jumpPower",
-                "=",
-                "jumpCharge * 10"
+                "Player",
+                "-90",
+                "Player.jumpForce",
+                ""
               ]
             },
             {
@@ -3506,47 +3571,27 @@
                 "JumpCharge",
                 "Text",
                 "=",
-                "\"Jump Charge: \" + ToJSON(jumpCharge)"
+                "\"Jump Charge: \" + ToJSON(Player.isCharging)"
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "JumpPower",
-                "Text",
-                "=",
-                "\"Jump Power: \" + ToJSON(jumpPower)"
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceAL"
+                "value": "SetNumberObjectVariable"
               },
               "parameters": [
                 "Player",
-                "-90",
-                "jumpPower",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "jumpPower",
+                "jumpForce",
                 "=",
                 "0"
               ]
             },
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "PlatformBehavior::PlatformerObjectBehavior::SetCurrentSpeed"
               },
               "parameters": [
-                "jumpCharge",
+                "Player",
+                "PlatformerObject",
                 "=",
                 "0"
               ]
