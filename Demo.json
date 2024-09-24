@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 209,
+    "build": 213,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -1417,29 +1417,12 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7872723651353851,
+        "zoomFactor": 0.528796188388545,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 27,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Player",
-          "persistentUuid": "843d03c7-ebb4-4af0-a40e-c64c128cc0be",
-          "width": 25,
-          "x": 182,
-          "y": 665,
-          "zOrder": 200,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -1739,9 +1722,416 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "480b67d2-f71a-4ac5-a513-3a5da023bb76",
+          "width": 0,
+          "x": 186,
+          "y": 631,
+          "zOrder": 206,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TutorialText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "tutorial  a, w, s, d",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "tutorial  a, w, s, d",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 20,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Couch",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Couch.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Refrigerator",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Refrigerator.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "StreetLight",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\StreetLight.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Lamp",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Lamp.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 28
+                          },
+                          {
+                            "x": 0,
+                            "y": 28
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "JumpPower",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Jump Power: 0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Jump Power: 0",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "JumpCharge",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Jump Charge: 0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Jump Charge: 0",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
@@ -1750,20 +2140,13 @@
           "updateIfNotVisible": false,
           "variables": [
             {
-              "folded": true,
-              "name": "isCharging",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "folded": true,
-              "name": "maxJumpForce",
+              "name": "jumpPower",
               "type": "number",
-              "value": 4000
+              "value": 0
             },
             {
               "folded": true,
-              "name": "jumpForce",
+              "name": "jumpCharge",
               "type": "number",
               "value": 0
             }
@@ -1771,12 +2154,11 @@
           "effects": [],
           "behaviors": [
             {
-              "jumpSpeed": 400,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "ignoreDefaultControls": false,
-              "maxSpeed": 150,
-              "acceleration": 10000,
+              "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
@@ -1785,20 +2167,11 @@
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
+              "maxSpeed": 250,
               "slopeMaxAngle": 60,
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
-            },
-            {
-              "name": "RemapForPlatformer",
-              "type": "BehaviorRemapper::RemapForPlatformer",
-              "Up": "w",
-              "Left": "a",
-              "Down": "s",
-              "Right": "d",
-              "Jump": "Space",
-              "Platformer": "PlatformerObject"
             }
           ],
           "animations": [
@@ -1807,8 +2180,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
+                  "looping": false,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -2612,8 +2984,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
+                  "looping": false,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -2727,447 +3098,8 @@
                   ]
                 }
               ]
-            },
-            {
-              "name": "jump",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\jump\\jump.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ]
-        },
-        {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "TutorialText",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "tutorial  a, w, s, d",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 20,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": true,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "tutorial  a, w, s, d",
-            "font": "",
-            "textAlignment": "left",
-            "characterSize": 20,
-            "color": "255;255;255"
-          }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Couch",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Couch.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Refrigerator",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "NewSprite2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Refrigerator.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "StreetLight",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\StreetLight.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Lamp",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Lamp.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 28
-                          },
-                          {
-                            "x": 0,
-                            "y": 28
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "JumpPower",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Jump Power: 0",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Jump Power: 0",
-            "font": "",
-            "textAlignment": "left",
-            "characterSize": 20,
-            "color": "0;0;0"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "JumpCharge",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Jump Charge: 0",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Jump Charge: 0",
-            "font": "",
-            "textAlignment": "left",
-            "characterSize": 20,
-            "color": "0;0;0"
-          }
         }
       ],
       "objectsFolderStructure": {
@@ -3175,9 +3107,6 @@
         "children": [
           {
             "objectName": "TutorialText"
-          },
-          {
-            "objectName": "Player"
           },
           {
             "objectName": "JumpPower"
@@ -3196,6 +3125,9 @@
           },
           {
             "objectName": "Lamp"
+          },
+          {
+            "objectName": "Player"
           }
         ]
       },
@@ -3237,11 +3169,6 @@
             "textR": 0
           },
           "comment": "Movement"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -3309,116 +3236,129 @@
                 "Player",
                 "PlatformerObject"
               ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "DinoVita",
+                        "Left"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "DinoVita",
+                        "a"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
             },
             {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "DinoVita",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Player",
-                "Flippable",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::IsOnFloor"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject"
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "DinoVita",
-                "Right"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Player",
-                "Flippable",
-                "no"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "DinoVita",
+                        "Right"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "DinoVita",
+                        "d"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Flippable",
+                    "no"
+                  ]
+                }
               ]
             }
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "DinoVita",
-                "a"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Player",
-                "Flippable",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "DinoVita",
-                "d"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Player",
-                "Flippable",
-                "no"
-              ]
-            }
-          ]
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Jump\n"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -3439,42 +3379,20 @@
               },
               "parameters": [
                 "",
-                "z"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "jumpForce",
-                "<=",
-                "Player.maxJumpForce"
+                "Space"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "isCharging",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberObjectVariable"
               },
               "parameters": [
                 "Player",
-                "jumpForce",
+                "jumpCharge",
                 "+",
-                "Player.jumpForce + (TimeDelta() * 100)"
+                "roundTo(TimeDelta(),2)"
               ]
             },
             {
@@ -3482,21 +3400,10 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "JumpPower",
+                "JumpCharge",
                 "Text",
                 "=",
-                "\"Jump Power: \" + ToJSON(Player.jumpForce)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "jumpForce",
-                "=",
-                "Player.maxJumpForce"
+                "\"Jump Charge: \"+ToString(roundTo(Player.jumpCharge, 2))"
               ]
             }
           ]
@@ -3506,28 +3413,20 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::And"
+                "value": "PlatformBehavior::IsOnFloor"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "KeyReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "z"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::IsOnFloor"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject"
-                  ]
-                }
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Space"
               ]
             }
           ],
@@ -3554,46 +3453,220 @@
             },
             {
               "type": {
-                "value": "AddForceAL"
-              },
-              "parameters": [
-                "Player",
-                "-90",
-                "Player.jumpForce",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
                 "JumpCharge",
                 "Text",
                 "=",
-                "\"Jump Charge: \" + ToJSON(Player.isCharging)"
+                "\"Jump Charge: \" + ToString(roundTo(Player.jumpCharge, 2))"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpCharge",
+                    "<=",
+                    "0.60"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpPower",
+                    "=",
+                    "600"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::JumpSpeed"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "=",
+                    "Player.jumpPower"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "JumpPower",
+                    "Text",
+                    "=",
+                    "\"Jump Power: \" + ToString(Player.jumpPower)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpCharge",
+                    "=",
+                    "0.00"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "jumpForce",
-                "=",
-                "0"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "jumpCharge",
+                        ">",
+                        "0.60"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "jumpCharge",
+                        "<=",
+                        "1.0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpPower",
+                    "=",
+                    "900"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::JumpSpeed"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "=",
+                    "Player.jumpPower"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "JumpPower",
+                    "Text",
+                    "=",
+                    "\"Jump Power: \" + ToString(Player.jumpPower)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpCharge",
+                    "=",
+                    "0.00"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "PlatformBehavior::PlatformerObjectBehavior::SetCurrentSpeed"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject",
-                "=",
-                "0"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpCharge",
+                    ">",
+                    "1.00"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpPower",
+                    "=",
+                    "1200"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::JumpSpeed"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "=",
+                    "Player.jumpPower"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "JumpPower",
+                    "Text",
+                    "=",
+                    "\"Jump Power: \" + ToString(Player.jumpPower)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpCharge",
+                    "=",
+                    "0.00"
+                  ]
+                }
               ]
             }
           ]
@@ -3613,36 +3686,12 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "coletaveis\n"
+          "comment": "Colletables"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "CookiesDish",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "CookiesDish",
-                "\"Level2\"",
-                ""
-              ]
-            }
-          ]
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -3789,10 +3838,6 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
-        },
-        {
-          "name": "RemapForPlatformer",
-          "type": "BehaviorRemapper::RemapForPlatformer"
         },
         {
           "name": "Resizable",
@@ -3979,8 +4024,8 @@
           "name": "Player",
           "persistentUuid": "3786a0ee-923c-48fb-b9a6-caf8191b161f",
           "width": 0,
-          "x": 746,
-          "y": 283,
+          "x": 224,
+          "y": 407,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -5186,18 +5231,7 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "AdvancedJump::DiveDash::SimulateDiveKey"
-              },
-              "parameters": [
-                "Player",
-                "DiveDash",
-                "="
-              ]
-            }
-          ]
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -5213,32 +5247,8 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "CookiesDish",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "CookiesDish",
-                "\"Level3\"",
-                ""
-              ]
-            }
-          ]
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -7024,18 +7034,7 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "AdvancedJump::DiveDash::SimulateDiveKey"
-              },
-              "parameters": [
-                "Player",
-                "DiveDash",
-                "="
-              ]
-            }
-          ]
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -7051,32 +7050,8 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "CookiesDish",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "CookiesDish",
-                "\"Level2\"",
-                ""
-              ]
-            }
-          ]
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -8755,18 +8730,7 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "AdvancedJump::DiveDash::SimulateDiveKey"
-              },
-              "parameters": [
-                "Player",
-                "DiveDash",
-                "="
-              ]
-            }
-          ]
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -10541,18 +10505,7 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "AdvancedJump::DiveDash::SimulateDiveKey"
-              },
-              "parameters": [
-                "Player",
-                "DiveDash",
-                "="
-              ]
-            }
-          ]
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -12446,18 +12399,7 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "AdvancedJump::DiveDash::SimulateDiveKey"
-              },
-              "parameters": [
-                "Player",
-                "DiveDash",
-                "="
-              ]
-            }
-          ]
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -19269,1391 +19211,6 @@
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
               "name": "PlatformerCharacter"
-            }
-          ],
-          "sharedPropertyDescriptors": []
-        }
-      ],
-      "eventsBasedObjects": []
-    },
-    {
-      "author": "",
-      "category": "Input",
-      "extensionNamespace": "",
-      "fullName": "Behavior Remapper",
-      "helpPath": "",
-      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWFscGhhLXctYm94LW91dGxpbmUiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNOSwxN0EyLDIgMCAwLDEgNywxNVY3SDlWMTVIMTFWOEgxM1YxNUgxNVY3SDE3VjE1QTIsMiAwIDAsMSAxNSwxN0g5TTUsM0gxOUEyLDIgMCAwLDEgMjEsNVYxOUEyLDIgMCAwLDEgMTksMjFINUEyLDIgMCAwLDEgMywxOVY1QTIsMiAwIDAsMSA1LDNNNSw1VjE5SDE5VjVINVoiIC8+PC9zdmc+",
-      "name": "BehaviorRemapper",
-      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/alpha-w-box-outline.svg",
-      "shortDescription": "Quickly remap Behavior controls to different keys. ",
-      "version": "1.0.0",
-      "description": [
-        "Make sure to disable default controls unless you want two keys to do the same action.",
-        "",
-        "Actions have two versions. `custom` allow the movement keys to be changed to what ever you would like. `presets` provide a common key-bindings that can be selected from a list.",
-        "",
-        "### Available Presets:",
-        "",
-        "##### `WASD`",
-        "-\tW: Up",
-        "-\tA: Left",
-        "-\tS: Down",
-        "-\tD: Right",
-        "-\tSpace: Jump",
-        "",
-        "##### `ZQSD`",
-        "-\tZ: Up",
-        "-\tQ: Left",
-        "-\tS: Down",
-        "-\tD: Right",
-        "-\tSpace: Jump",
-        "",
-        "##### `Numpad` (Num lock must be disabled)",
-        "-\tNumpad Up: Up",
-        "-\tNumpad Left: Left",
-        "-\tNumpad Down: Down",
-        "-\tNumpad Right: Right",
-        "-\tNumpad Return/Enter: Jump",
-        "",
-        "##### `IJKL`",
-        "-\tI: Up",
-        "-\tJ: Left",
-        "-\tK: Down",
-        "-\tL: Right",
-        "-\tReturn/Enter: Jump",
-        ""
-      ],
-      "origin": {
-        "identifier": "BehaviorRemapper",
-        "name": "gdevelop-extension-store"
-      },
-      "tags": [
-        "remapper",
-        "key",
-        "bindings",
-        "presets",
-        "platformer",
-        "platform",
-        "top-down"
-      ],
-      "authorIds": [
-        "AlZ3D1xkH0QDao7T37VZZUeYNpn1"
-      ],
-      "dependencies": [],
-      "globalVariables": [],
-      "sceneVariables": [],
-      "eventsFunctions": [],
-      "eventsBasedBehaviors": [
-        {
-          "description": "Allows for the controls of a Top-Down behavior to be re-mapped via a single action.",
-          "fullName": "Remap Top-down",
-          "name": "RemapForTopdown",
-          "objectType": "",
-          "eventsFunctions": [
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "doStepPreEvents",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyFromTextPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Object.Behavior::PropertyUp()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TopDownMovementBehavior::SimulateUpKey"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Topdown"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyFromTextPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Object.Behavior::PropertyLeft()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TopDownMovementBehavior::SimulateLeftKey"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Topdown"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyFromTextPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Object.Behavior::PropertyRight()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TopDownMovementBehavior::SimulateRightKey"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Topdown"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyFromTextPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Object.Behavior::PropertyDown()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TopDownMovementBehavior::SimulateDownKey"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Topdown"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "BehaviorRemapper::RemapForTopdown",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Remaps Top-Down behavior controls to a custom control scheme.",
-              "fullName": "Remap Top-Down controls to a custom scheme",
-              "functionType": "Action",
-              "name": "SetCustom",
-              "sentence": "Remap controls of _PARAM0_: Up: _PARAM2_, Left: _PARAM3_, Down: _PARAM4_, Right: _PARAM5_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyUp"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsString(\"up\")"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyLeft"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsString(\"left\")"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyRight"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsString(\"right\")"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyDown"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsString(\"down\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "BehaviorRemapper::RemapForTopdown",
-                  "type": "behavior"
-                },
-                {
-                  "description": "Up key",
-                  "name": "up",
-                  "type": "key"
-                },
-                {
-                  "description": "Left key",
-                  "name": "left",
-                  "type": "key"
-                },
-                {
-                  "description": "Down key",
-                  "name": "down",
-                  "type": "key"
-                },
-                {
-                  "description": "Right key",
-                  "name": "right",
-                  "type": "key"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Remaps Top-Down behavior controls to a preset control scheme.",
-              "fullName": "Remap Top-Down controls to a preset",
-              "functionType": "Action",
-              "name": "SetPreset",
-              "sentence": "Remap controls of _PARAM0_ to preset _PARAM2_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "QWERTY bindings"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StrEqual"
-                      },
-                      "parameters": [
-                        "GetArgumentAsString(\"options\")",
-                        "=",
-                        "\"WASD\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyUp"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"w\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyLeft"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"a\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyDown"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"s\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyRight"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"d\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "AZERTY bindings"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StrEqual"
-                      },
-                      "parameters": [
-                        "GetArgumentAsString(\"options\")",
-                        "=",
-                        "\"ZQSD\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyUp"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"z\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyLeft"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"q\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyDown"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"s\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyDown"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"d\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Numpad bindings"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StrEqual"
-                      },
-                      "parameters": [
-                        "GetArgumentAsString(\"options\")",
-                        "=",
-                        "\"Numpad\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyUp"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"NumpadUp\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyLeft"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"NumpadLeft\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyDown"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"NumpadDown\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyRight"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"NumpadRight\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "QWERTY player 2 bindings "
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StrEqual"
-                      },
-                      "parameters": [
-                        "GetArgumentAsString(\"options\")",
-                        "=",
-                        "\"IJKL\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyUp"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"i\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyLeft"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"j\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyDown"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"k\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyRight"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"l\""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "BehaviorRemapper::RemapForTopdown",
-                  "type": "behavior"
-                },
-                {
-                  "description": "Preset name",
-                  "name": "options",
-                  "supplementaryInformation": "[\"WASD\",\"ZQSD\",\"Numpad\",\"IJKL\"]",
-                  "type": "stringWithSelector"
-                }
-              ],
-              "objectGroups": []
-            }
-          ],
-          "propertyDescriptors": [
-            {
-              "value": "w",
-              "type": "String",
-              "label": "Up key",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "name": "Up"
-            },
-            {
-              "value": "a",
-              "type": "String",
-              "label": "Left key",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "name": "Left"
-            },
-            {
-              "value": "d",
-              "type": "String",
-              "label": "Right key",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "name": "Right"
-            },
-            {
-              "value": "s",
-              "type": "String",
-              "label": "Down key",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "name": "Down"
-            },
-            {
-              "value": "",
-              "type": "Behavior",
-              "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [
-                "TopDownMovementBehavior::TopDownMovementBehavior"
-              ],
-              "name": "Topdown"
-            }
-          ],
-          "sharedPropertyDescriptors": []
-        },
-        {
-          "description": "Allows for the controls of a platformer behavior to be re-mapped via a single action.",
-          "fullName": "Remap Platformer controls",
-          "name": "RemapForPlatformer",
-          "objectType": "",
-          "eventsFunctions": [
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "doStepPreEvents",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyFromTextPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Object.Behavior::PropertyUp()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateUpKey"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Platformer"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateLadderKey"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Platformer"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyFromTextPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Object.Behavior::PropertyLeft()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateLeftKey"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Platformer"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyFromTextPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Object.Behavior::PropertyRight()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateRightKey"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Platformer"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyFromTextPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Object.Behavior::PropertyDown()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateDownKey"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Platformer"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateReleaseLadderKey"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Platformer"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyFromTextPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Object.Behavior::PropertyJump()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateJumpKey"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Platformer"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "BehaviorRemapper::RemapForPlatformer",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Remaps Platformer behavior controls to a custom control scheme.",
-              "fullName": "Remap Platformer controls to a custom scheme",
-              "functionType": "Action",
-              "name": "SetCustom",
-              "sentence": "Remap controls of _PARAM0_: Up: _PARAM2_, Left: _PARAM3_, Down: _PARAM4_, Right: _PARAM5_, Jump: _PARAM6_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyUp"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsString(\"up\")"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyLeft"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsString(\"left\")"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyRight"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsString(\"right\")"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyDown"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsString(\"down\")"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyJump"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsString(\"jump\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "BehaviorRemapper::RemapForPlatformer",
-                  "type": "behavior"
-                },
-                {
-                  "description": "Up key",
-                  "name": "up",
-                  "type": "key"
-                },
-                {
-                  "description": "Left key",
-                  "name": "left",
-                  "type": "key"
-                },
-                {
-                  "description": "Down key",
-                  "name": "down",
-                  "type": "key"
-                },
-                {
-                  "description": "Right key",
-                  "name": "right",
-                  "type": "key"
-                },
-                {
-                  "description": "Jump key",
-                  "name": "jump",
-                  "type": "key"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Remaps Platformer behavior controls to a preset control scheme.",
-              "fullName": "Remap Platformer controls to a preset",
-              "functionType": "Action",
-              "name": "SetPreset",
-              "sentence": "Remap controls of _PARAM0_ to preset _PARAM2_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "QWERTY bindings"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StrEqual"
-                      },
-                      "parameters": [
-                        "GetArgumentAsString(\"options\")",
-                        "=",
-                        "\"WASD\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyUp"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"w\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyLeft"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"a\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyDown"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"s\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyRight"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"d\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyJump"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"Space\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "AZERTY bindings"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StrEqual"
-                      },
-                      "parameters": [
-                        "GetArgumentAsString(\"options\")",
-                        "=",
-                        "\"ZQSD\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyUp"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"z\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyLeft"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"q\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyDown"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"s\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyRight"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"d\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyJump"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"Space\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Numpad bindings"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StrEqual"
-                      },
-                      "parameters": [
-                        "GetArgumentAsString(\"options\")",
-                        "=",
-                        "\"Numpad\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyUp"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"NumpadUp\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyLeft"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"NumpadLeft\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyDown"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"NumpadDown\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyRight"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"NumpadRight\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyJump"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"NumpadReturn\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "QWERTY player 2 bindings "
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StrEqual"
-                      },
-                      "parameters": [
-                        "GetArgumentAsString(\"options\")",
-                        "=",
-                        "\"IJKL\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyUp"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"i\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyLeft"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"j\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyDown"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"k\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyRight"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"l\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyJump"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"Return\""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "BehaviorRemapper::RemapForPlatformer",
-                  "type": "behavior"
-                },
-                {
-                  "description": "Preset name",
-                  "name": "options",
-                  "supplementaryInformation": "[\"WASD\",\"ZQSD\",\"Numpad\",\"IJKL\"]",
-                  "type": "stringWithSelector"
-                }
-              ],
-              "objectGroups": []
-            }
-          ],
-          "propertyDescriptors": [
-            {
-              "value": "",
-              "type": "String",
-              "label": "Up key",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "name": "Up"
-            },
-            {
-              "value": "",
-              "type": "String",
-              "label": "Left key",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "name": "Left"
-            },
-            {
-              "value": "",
-              "type": "String",
-              "label": "Down key",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "name": "Down"
-            },
-            {
-              "value": "",
-              "type": "String",
-              "label": "Right key",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "name": "Right"
-            },
-            {
-              "value": "",
-              "type": "String",
-              "label": "Jump key",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "name": "Jump"
-            },
-            {
-              "value": "",
-              "type": "Behavior",
-              "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [
-                "PlatformBehavior::PlatformerObjectBehavior"
-              ],
-              "name": "Platformer"
             }
           ],
           "sharedPropertyDescriptors": []
