@@ -9,7 +9,13 @@ The game explores themes of social inequality and adaptation to life in the city
 
 Current Version 1.0.0 
 
-<a href="https://games.gdevelop-app.com/game-835af5ff-a298-4644-a994-e851cbf7789f/index.html" title="Play the game now" target="_blank">PLAY</a>
+<a href="https://games.gdevelop-app.com/game-a74780da-d0dc-4350-9fbe-ab3e204fed69/index.html" title="Play the game now" target="_blank">PLAY</a>
+
+## QR CODE 
+
+<div style="text-align:center">
+<img src="./doc/imgs/qrcode_current_build_version.png">
+</div>
 
 # :rocket: LEVELS
 
