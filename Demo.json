@@ -1137,6 +1137,389 @@
         "name": "assets\\GameObjects\\Player\\jump\\jump.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/Jump 10.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "a1617bd8c1c5df8e001af5b3256272bbe23bd95bd790a6be6bb2cacc5f7ac15d_Jump 10.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Jump/a1617bd8c1c5df8e001af5b3256272bbe23bd95bd790a6be6bb2cacc5f7ac15d_Jump 10.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/idle/idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\idle\\idle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/walk/walk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\walk\\walk1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/walk/walk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\walk\\walk2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/walk/walk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\walk\\walk3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/walk/walk4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\walk\\walk4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/walk/walk5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\walk\\walk5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/walk/walk6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\walk\\walk6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/walk/walk7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\walk\\walk7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/walk/walk8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\walk\\walk8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/walk/walk9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\walk\\walk9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/walk/walk10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\walk\\walk10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/jump/jump1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\jump\\jump1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/jump/jump2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\jump\\jump2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/jump/jump3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\jump\\jump3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/jump/jump4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\jump\\jump4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/jump/jump5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\jump\\jump5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/jump/jump6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\jump\\jump6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/jump/jump7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\jump\\jump7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/jump/jump8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\jump\\jump8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/jump/jump9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\jump\\jump9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/jump/jump10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\jump\\jump10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/run/run1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\run\\run1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/run/run2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\run\\run2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/run/run3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\run\\run3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/run/run4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\run\\run4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/run/run5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\run\\run5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/run/run6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\run\\run6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/run/run7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\run\\run7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/run/run8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\run\\run8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/run/run9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\run\\run9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/run/run10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\run\\run10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/death/death1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\death\\death1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/death/death2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\death\\death2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/death/death3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\death\\death3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/death/death4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\death\\death4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/death/death5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\death\\death5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/death/death6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\death\\death6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/death/death7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\death\\death7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/death/death8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\death\\death8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/death/death9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\death\\death9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/death/death10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\death\\death10.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2155,15 +2538,20 @@
               "name": "jumpCharge",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "isParabolicJump",
+              "type": "boolean",
+              "value": false
             }
           ],
           "effects": [],
           "behaviors": [
             {
-              "ignoreDefaultControls": true,
-              "jumpSpeed": 600,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -2191,7 +2579,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\blink_1.png",
+                      "image": "assets\\GameObjects\\Player\\idle\\idle.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2207,776 +2595,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 7
+                            "x": 19,
+                            "y": 43
                           },
                           {
-                            "x": 55,
-                            "y": 7
+                            "x": 47,
+                            "y": 43
                           },
                           {
-                            "x": 55,
-                            "y": 58
+                            "x": 47,
+                            "y": 64
                           },
                           {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\blink_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\blink_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\blink_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\blink_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\blink_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail14.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail15.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail16.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
+                            "x": 19,
+                            "y": 64
                           }
                         ]
                       ]
@@ -2995,7 +2627,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\walk\\walk.png",
+                      "image": "assets\\GameObjects\\Player\\walk\\walk1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3011,27 +2643,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 7
+                            "x": 19,
+                            "y": 43
                           },
                           {
-                            "x": 55,
-                            "y": 7
+                            "x": 47,
+                            "y": 43
                           },
                           {
-                            "x": 55,
-                            "y": 58
+                            "x": 47,
+                            "y": 64
                           },
                           {
-                            "x": 0,
-                            "y": 58
+                            "x": 19,
+                            "y": 64
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\walk\\walk_2.png",
+                      "image": "assets\\GameObjects\\Player\\walk\\walk2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3047,27 +2679,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 7
+                            "x": 19,
+                            "y": 43
                           },
                           {
-                            "x": 55,
-                            "y": 7
+                            "x": 47,
+                            "y": 43
                           },
                           {
-                            "x": 55,
-                            "y": 58
+                            "x": 47,
+                            "y": 64
                           },
                           {
-                            "x": 0,
-                            "y": 58
+                            "x": 19,
+                            "y": 64
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\walk\\walk_3.png",
+                      "image": "assets\\GameObjects\\Player\\walk\\walk3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3083,20 +2715,1388 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 7
+                            "x": 19,
+                            "y": 43
                           },
                           {
-                            "x": 55,
-                            "y": 7
+                            "x": 47,
+                            "y": 43
                           },
                           {
-                            "x": 55,
-                            "y": 58
+                            "x": 47,
+                            "y": 64
                           },
                           {
-                            "x": 0,
-                            "y": 58
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\walk\\walk4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\walk\\walk5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\walk\\walk6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\walk\\walk7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\walk\\walk8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\walk\\walk9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\walk\\walk10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "run",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "jump",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "death",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
                           }
                         ]
                       ]
@@ -3378,38 +4378,145 @@
                 "Player",
                 "PlatformerObject"
               ]
-            },
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Space"
-              ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "jumpCharge",
-                "+",
-                "roundTo(TimeDelta(),2)"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpCharge",
+                    "+",
+                    "roundTo(TimeDelta(),2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "JumpCharge",
+                    "Text",
+                    "=",
+                    "\"Jump Charge: \"+ToString(roundTo(Player.jumpCharge, 2))"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "JumpCharge",
-                "Text",
-                "=",
-                "\"Jump Charge: \"+ToString(roundTo(Player.jumpCharge, 2))"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Space"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Right"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"idle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpCharge",
+                    "+",
+                    "roundTo(TimeDelta(),2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "JumpCharge",
+                    "Text",
+                    "=",
+                    "\"Jump Charge: \"+ToString(roundTo(Player.jumpCharge, 2))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "isParabolicJump",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::Acceleration"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Player.jumpPower",
+                    "-500",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -3428,11 +4535,19 @@
             },
             {
               "type": {
-                "value": "KeyReleased"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "",
-                "Space"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
               ]
             }
           ],
@@ -3467,9 +4582,54 @@
                 "=",
                 "\"Jump Charge: \" + ToString(roundTo(Player.jumpCharge, 2))"
               ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::Acceleration"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "=",
+                "1500"
+              ]
             }
           ],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "isParabolicJump",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "isParabolicJump",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": []
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -3494,18 +4654,7 @@
                     "Player",
                     "jumpPower",
                     "=",
-                    "600"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::JumpSpeed"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject",
-                    "=",
-                    "Player.jumpPower"
+                    "400"
                   ]
                 },
                 {
@@ -3575,18 +4724,7 @@
                     "Player",
                     "jumpPower",
                     "=",
-                    "900"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::JumpSpeed"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject",
-                    "=",
-                    "Player.jumpPower"
+                    "600"
                   ]
                 },
                 {
@@ -3637,18 +4775,7 @@
                     "Player",
                     "jumpPower",
                     "=",
-                    "1200"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::JumpSpeed"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject",
-                    "=",
-                    "Player.jumpPower"
+                    "900"
                   ]
                 },
                 {
@@ -3676,11 +4803,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
