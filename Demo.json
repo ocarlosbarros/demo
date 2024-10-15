@@ -1761,6 +1761,88 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "JumpPower",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Jump Power: 0",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Jump Power: 0",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "JumpCharge",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Jump Charge: 0",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Jump Charge: 0",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1780,6 +1862,12 @@
       },
       {
         "objectName": "NextLevelZone"
+      },
+      {
+        "objectName": "JumpPower"
+      },
+      {
+        "objectName": "JumpCharge"
       }
     ]
   },
@@ -1806,7 +1894,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 2.059746042447098,
+        "zoomFactor": 0.5287961883885457,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2024,8 +2112,8 @@
           "name": "Ground",
           "persistentUuid": "4153729b-ed92-43fd-8ee5-0873ebf6674e",
           "width": 125,
-          "x": 404,
-          "y": 4,
+          "x": 498,
+          "y": 16,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -2073,8 +2161,8 @@
           "name": "NextLevelZone",
           "persistentUuid": "1b4bbfe8-5d26-4ea2-8562-3d9d660832bd",
           "width": 912,
-          "x": 299,
-          "y": -130,
+          "x": 294,
+          "y": -72,
           "zOrder": 203,
           "numberProperties": [],
           "stringProperties": [],
@@ -2082,15 +2170,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 26,
           "keepRatio": true,
           "layer": "",
           "name": "JumpPower",
           "persistentUuid": "a2593e2f-26ca-479a-8e20-c1fb57fd3c9b",
-          "width": 0,
-          "x": 46,
-          "y": 388,
+          "width": 170,
+          "x": 20,
+          "y": 80,
           "zOrder": 204,
           "numberProperties": [],
           "stringProperties": [],
@@ -2105,8 +2194,8 @@
           "name": "JumpCharge",
           "persistentUuid": "c715eb46-545e-4257-9720-ab5c4646f06c",
           "width": 0,
-          "x": 40,
-          "y": 348,
+          "x": 18,
+          "y": 33,
           "zOrder": 205,
           "numberProperties": [],
           "stringProperties": [],
@@ -2122,8 +2211,8 @@
           "name": "Player",
           "persistentUuid": "480b67d2-f71a-4ac5-a513-3a5da023bb76",
           "width": 70,
-          "x": 186,
-          "y": 631,
+          "x": 761,
+          "y": 620,
           "zOrder": 206,
           "numberProperties": [],
           "stringProperties": [],
@@ -2441,88 +2530,6 @@
           ]
         },
         {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "JumpPower",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Jump Power: 0",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Jump Power: 0",
-            "font": "",
-            "textAlignment": "left",
-            "characterSize": 20,
-            "color": "0;0;0"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "JumpCharge",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Jump Charge: 0",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Jump Charge: 0",
-            "font": "",
-            "textAlignment": "left",
-            "characterSize": 20,
-            "color": "0;0;0"
-          }
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Player",
@@ -2549,12 +2556,31 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerCharacterAnimator",
+              "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+              "EnableAnimationChanges": true,
+              "EnableHorizontalFlipping": true,
+              "IdleAnimationName": "Idle",
+              "RunAnimationName": "Run",
+              "JumpAnimationName": "Jump",
+              "FallAnimationName": "Fall",
+              "ClimbAnimationName": "Climb",
+              "PlatformerBehavior": "PlatformerObject",
+              "Animation": "Animation",
+              "Flippable": "Flippable"
+            },
+            {
+              "name": "PlatformerConfigurationStack",
+              "type": "AdvancedJump::PlatformerConfigurationStack",
+              "PlatformerCharacter": "PlatformerObject"
+            },
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 500,
               "deceleration": 500,
               "jumpSpeed": 400,
               "maxSpeed": 60,
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "ignoreDefaultControls": true,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -4116,12 +4142,6 @@
             "objectName": "TutorialText"
           },
           {
-            "objectName": "JumpPower"
-          },
-          {
-            "objectName": "JumpCharge"
-          },
-          {
             "objectName": "StreetLight"
           },
           {
@@ -4271,7 +4291,7 @@
                       },
                       "parameters": [
                         "DinoVita",
-                        "a"
+                        "Space"
                       ]
                     }
                   ]
@@ -4324,7 +4344,7 @@
                       },
                       "parameters": [
                         "DinoVita",
-                        "d"
+                        "Space"
                       ]
                     }
                   ]
@@ -4399,6 +4419,17 @@
               "actions": [
                 {
                   "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "JumpCharge",
+                    "Text",
+                    "=",
+                    "\"Jump Charge: \" + ToString(roundTo(Player.jumpCharge, 2))"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
@@ -4406,17 +4437,6 @@
                     "jumpCharge",
                     "+",
                     "roundTo(TimeDelta(),2)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "JumpCharge",
-                    "Text",
-                    "=",
-                    "\"Jump Charge: \"+ToString(roundTo(Player.jumpCharge, 2))"
                   ]
                 }
               ]
@@ -4454,6 +4474,17 @@
               "actions": [
                 {
                   "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "JumpCharge",
+                    "Text",
+                    "=",
+                    "\"Jump Charge: \" + ToString(roundTo(Player.jumpCharge, 2))"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
@@ -4465,28 +4496,6 @@
                 },
                 {
                   "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "jumpCharge",
-                    "+",
-                    "roundTo(TimeDelta(),2)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "JumpCharge",
-                    "Text",
-                    "=",
-                    "\"Jump Charge: \"+ToString(roundTo(Player.jumpCharge, 2))"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetBooleanObjectVariable"
                   },
                   "parameters": [
@@ -4494,6 +4503,17 @@
                     "isParabolicJump",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpCharge",
+                    "+",
+                    "roundTo(TimeDelta(),2)"
                   ]
                 },
                 {
@@ -4553,6 +4573,17 @@
               "actions": [
                 {
                   "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "JumpCharge",
+                    "Text",
+                    "=",
+                    "\"Jump Charge: \" + ToString(roundTo(Player.jumpCharge, 2))"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
@@ -4571,17 +4602,6 @@
                     "jumpCharge",
                     "+",
                     "roundTo(TimeDelta(),2)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "JumpCharge",
-                    "Text",
-                    "=",
-                    "\"Jump Charge: \"+ToString(roundTo(Player.jumpCharge, 2))"
                   ]
                 },
                 {
@@ -4748,17 +4768,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "jumpPower",
-                    "=",
-                    "400"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
@@ -4766,6 +4775,17 @@
                     "Text",
                     "=",
                     "\"Jump Power: \" + ToString(Player.jumpPower)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpPower",
+                    "=",
+                    "100"
                   ]
                 },
                 {
@@ -4824,7 +4844,7 @@
                     "Player",
                     "jumpPower",
                     "=",
-                    "600"
+                    "300"
                   ]
                 },
                 {
@@ -4875,7 +4895,7 @@
                     "Player",
                     "jumpPower",
                     "=",
-                    "900"
+                    "400"
                   ]
                 },
                 {
@@ -5064,6 +5084,14 @@
           "type": "PlatformBehavior::PlatformBehavior"
         },
         {
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+        },
+        {
+          "name": "PlatformerConfigurationStack",
+          "type": "AdvancedJump::PlatformerConfigurationStack"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -5101,7 +5129,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.666975251021135,
+        "zoomFactor": 0.689465876640918,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5250,11 +5278,43 @@
           "keepRatio": true,
           "layer": "",
           "name": "Player",
-          "persistentUuid": "3786a0ee-923c-48fb-b9a6-caf8191b161f",
+          "persistentUuid": "06c89908-5da2-4ddb-90f9-346ffaa146ec",
           "width": 0,
-          "x": 224,
-          "y": 407,
+          "x": 446,
+          "y": 435,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "JumpPower",
+          "persistentUuid": "92b3c8df-d349-4244-8b5f-11c2e52fa397",
+          "width": 0,
+          "x": 61,
+          "y": 22,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "JumpCharge",
+          "persistentUuid": "2121cfc8-7282-4b80-98eb-d364bd8d4217",
+          "width": 0,
+          "x": 61,
+          "y": 58,
+          "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5267,38 +5327,47 @@
           "name": "Player",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "jumpPower",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "jumpCharge",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "isParabolicJump",
+              "type": "boolean",
+              "value": false
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "ignoreDefaultControls": true,
-              "jumpSpeed": 500,
-              "maxSpeed": 150,
-              "acceleration": 10000,
+              "acceleration": 500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
-              "deceleration": 1500,
+              "deceleration": 500,
               "gravity": 1000,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 400,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
+              "maxSpeed": 60,
               "slopeMaxAngle": 60,
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
-            },
-            {
-              "name": "RemapForPlatformer",
-              "type": "BehaviorRemapper::RemapForPlatformer",
-              "Up": "w",
-              "Left": "a",
-              "Down": "s",
-              "Right": "d",
-              "Jump": "",
-              "Platformer": "PlatformerObject"
             }
           ],
           "animations": [
@@ -5307,12 +5376,12 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
+                  "looping": false,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\blink_1.png",
+                      "image": "assets\\GameObjects\\Player\\idle\\idle.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5328,776 +5397,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 7
+                            "x": 19,
+                            "y": 43
                           },
                           {
-                            "x": 55,
-                            "y": 7
+                            "x": 47,
+                            "y": 43
                           },
                           {
-                            "x": 55,
-                            "y": 58
+                            "x": 47,
+                            "y": 64
                           },
                           {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\blink_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\blink_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\blink_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\blink_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\blink_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail14.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail15.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\idle\\tail16.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 7
-                          },
-                          {
-                            "x": 55,
-                            "y": 58
-                          },
-                          {
-                            "x": 0,
-                            "y": 58
+                            "x": 19,
+                            "y": 64
                           }
                         ]
                       ]
@@ -6111,13 +5424,12 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
+                  "looping": false,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\walk\\walk.png",
+                      "image": "assets\\GameObjects\\Player\\walk\\walk1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6133,27 +5445,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 7
+                            "x": 19,
+                            "y": 43
                           },
                           {
-                            "x": 55,
-                            "y": 7
+                            "x": 47,
+                            "y": 43
                           },
                           {
-                            "x": 55,
-                            "y": 58
+                            "x": 47,
+                            "y": 64
                           },
                           {
-                            "x": 0,
-                            "y": 58
+                            "x": 19,
+                            "y": 64
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\walk\\walk_2.png",
+                      "image": "assets\\GameObjects\\Player\\walk\\walk2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6169,27 +5481,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 7
+                            "x": 19,
+                            "y": 43
                           },
                           {
-                            "x": 55,
-                            "y": 7
+                            "x": 47,
+                            "y": 43
                           },
                           {
-                            "x": 55,
-                            "y": 58
+                            "x": 47,
+                            "y": 64
                           },
                           {
-                            "x": 0,
-                            "y": 58
+                            "x": 19,
+                            "y": 64
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Player\\walk\\walk_3.png",
+                      "image": "assets\\GameObjects\\Player\\walk\\walk3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6205,20 +5517,1388 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 7
+                            "x": 19,
+                            "y": 43
                           },
                           {
-                            "x": 55,
-                            "y": 7
+                            "x": 47,
+                            "y": 43
                           },
                           {
-                            "x": 55,
-                            "y": 58
+                            "x": 47,
+                            "y": 64
                           },
                           {
-                            "x": 0,
-                            "y": 58
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\walk\\walk4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\walk\\walk5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\walk\\walk6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\walk\\walk7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\walk\\walk8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\walk\\walk9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\walk\\walk10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "run",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\run\\run10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "jump",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\jump\\jump10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "death",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\death\\death10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
                           }
                         ]
                       ]
@@ -6276,11 +6956,6 @@
             "textR": 0
           },
           "comment": "Movement"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -6342,15 +7017,165 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
+                "value": "PlatformBehavior::IsOnFloor"
               },
               "parameters": [
-                "DinoVita",
-                "Left"
+                "Player",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "DinoVita",
+                        "Left"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "DinoVita",
+                        "Space"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "DinoVita",
+                        "Right"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "DinoVita",
+                        "Space"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "DinoVita",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "DinoVita",
+                    "Space"
+                  ]
+                }
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateControl"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "\"Left\""
+              ]
+            },
             {
               "type": {
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
@@ -6368,15 +7193,42 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "DinoVita",
-                "Right"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "DinoVita",
+                    "Right"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "DinoVita",
+                    "Space"
+                  ]
+                }
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateControl"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "\"Right\""
+              ]
+            },
             {
               "type": {
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
@@ -6390,27 +7242,267 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Jump\n"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "DinoVita",
-                "a"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
+                "inverted": true,
+                "value": "PlatformBehavior::IsJumping"
               },
               "parameters": [
                 "Player",
-                "Flippable",
-                "yes"
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpPower",
+                    "+",
+                    "roundTo(TimeDelta(),2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "JumpCharge",
+                    "Text",
+                    "=",
+                    "\"Jump Charge: \" + ToString(roundTo(Player.jumpPower, 2))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Space"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Right"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"jump\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpPower",
+                    "+",
+                    "roundTo(TimeDelta(),2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "JumpCharge",
+                    "Text",
+                    "=",
+                    "\"Jump Charge: \" + ToString(roundTo(Player.jumpPower, 2))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "isParabolicJump",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::Acceleration"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Player.jumpCharge",
+                    "-500",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Space"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"jump\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpPower",
+                    "+",
+                    "roundTo(TimeDelta(),2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "JumpCharge",
+                    "Text",
+                    "=",
+                    "\"Jump Charge: \" + ToString(roundTo(Player.jumpPower, 2))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "isParabolicJump",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::Acceleration"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "-Player.jumpCharge",
+                    "-500",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -6423,27 +7515,532 @@
                 "value": "KeyPressed"
               },
               "parameters": [
-                "DinoVita",
-                "d"
+                "",
+                "Space"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
+                "value": "SetNumberObjectVariable"
               },
               "parameters": [
                 "Player",
-                "Flippable",
-                "no"
+                "jumpPower",
+                "+",
+                "roundTo(TimeDelta(),2)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "JumpCharge",
+                "Text",
+                "=",
+                "\"Jump Charge: \" + ToString(roundTo(Player.jumpPower, 2))"
               ]
             }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"jump\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "jumpPower",
+                "+",
+                "roundTo(TimeDelta(),2)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "JumpCharge",
+                "Text",
+                "=",
+                "\"Jump Charge: \" + ToString(roundTo(Player.jumpPower, 2))"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "isParabolicJump",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::Acceleration"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Player",
+                "Player.jumpCharge",
+                "-500",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"jump\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "jumpPower",
+                "+",
+                "roundTo(TimeDelta(),2)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "JumpCharge",
+                "Text",
+                "=",
+                "\"Jump Charge: \" + ToString(roundTo(Player.jumpPower, 2))"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "isParabolicJump",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::Acceleration"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Player",
+                "-Player.jumpCharge",
+                "-500",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"jump\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "JumpCharge",
+                "Text",
+                "=",
+                "\"Jump Charge: \" + ToString(roundTo(Player.jumpPower, 2))"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::Acceleration"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "=",
+                "1500"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "isParabolicJump",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "isParabolicJump",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpPower",
+                    "<=",
+                    "0.60"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpCharge",
+                    "=",
+                    "400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "JumpPower",
+                    "Text",
+                    "=",
+                    "\"Jump Power: \" + ToString(Player.jumpCharge)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpPower",
+                    "=",
+                    "0.00"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "jumpPower",
+                        ">",
+                        "0.60"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "jumpPower",
+                        "<=",
+                        "1.0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpCharge",
+                    "=",
+                    "600"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "JumpPower",
+                    "Text",
+                    "=",
+                    "\"Jump Power: \" + ToString(Player.jumpCharge)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpPower",
+                    "=",
+                    "0.00"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpPower",
+                    ">",
+                    "1.00"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpCharge",
+                    "=",
+                    "900"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "JumpPower",
+                    "Text",
+                    "=",
+                    "\"Jump Power: \" + ToString(Player.jumpCharge)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpPower",
+                    "=",
+                    "0.00"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "isParabolicJump",
+                "False",
+                ""
+              ]
+            }
+          ],
           "actions": []
         },
         {
@@ -6451,14 +8048,193 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
+                "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "lucky",
-                "LControl"
+                "Player",
+                "isParabolicJump",
+                "True",
+                ""
               ]
             }
           ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "jumpPower",
+                "<=",
+                "0.60"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "jumpCharge",
+                "=",
+                "400"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "JumpPower",
+                "Text",
+                "=",
+                "\"Jump Power: \" + ToString(Player.jumpCharge)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "jumpPower",
+                "=",
+                "0.00"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpPower",
+                    ">",
+                    "0.60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpPower",
+                    "<=",
+                    "1.0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "jumpCharge",
+                "=",
+                "600"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "JumpPower",
+                "Text",
+                "=",
+                "\"Jump Power: \" + ToString(Player.jumpCharge)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "jumpPower",
+                "=",
+                "0.00"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "jumpPower",
+                ">",
+                "1.00"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "jumpCharge",
+                "=",
+                "900"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "JumpPower",
+                "Text",
+                "=",
+                "\"Jump Power: \" + ToString(Player.jumpCharge)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "jumpPower",
+                "=",
+                "0.00"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
           "actions": []
         },
         {
@@ -6558,6 +8334,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -6665,16 +8446,16 @@
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
-          "name": "RemapForPlatformer",
-          "type": "BehaviorRemapper::RemapForPlatformer"
-        },
-        {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
         },
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -6698,7 +8479,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.689465876640918,
+        "zoomFactor": 0.6241710247417165,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8478,6 +10259,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -8501,7 +10286,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6894658766409167,
+        "zoomFactor": 0.5287961883885435,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10158,6 +11943,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -10181,7 +11970,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.787272365135384,
+        "zoomFactor": 0.5841138296071184,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10265,8 +12054,8 @@
           "name": "Player",
           "persistentUuid": "1d9cf9b7-0a51-4ebd-b50e-e998cea715e5",
           "width": 44,
-          "x": 867,
-          "y": 89,
+          "x": 153,
+          "y": 583,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -11932,6 +13721,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -13836,6 +15629,1369 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "category": "Movement",
+      "extensionNamespace": "",
+      "fullName": "Platformer character animator",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPGc+DQoJPHBhdGggZD0iTTIzLDExYzIuMiwwLDQtMS44LDQtNHMtMS44LTQtNC00cy00LDEuOC00LDRTMjAuOCwxMSwyMywxMXoiLz4NCgk8cGF0aCBkPSJNMzAuOCwxMi40Yy0wLjMtMC40LTEtMC41LTEuNC0wLjJsLTIuOSwyLjNjLTAuOCwwLjctMiwwLjYtMi43LTAuMmwtNy45LTcuOWMtMS42LTEuNi00LjEtMS42LTUuNywwTDcuMyw5LjMNCgkJYy0wLjQsMC40LTAuNCwxLDAsMS40czEsMC40LDEuNCwwbDIuOC0yLjhjMC44LTAuOCwyLjEtMC44LDIuOSwwbDEuNiwxLjZMMTEuNiwxNGMtMSwxLTEuNCwyLjMtMS4xLDMuN2MwLjIsMS4xLDAuOSwyLDEuOCwyLjYNCgkJbC0xLjYsMS42Yy0wLjQsMC40LTEsMC40LTEuNCwwbC0zLjYtMy42Yy0wLjQtMC40LTEtMC40LTEuNCwwcy0wLjQsMSwwLDEuNGwzLjYsMy42YzAuNiwwLjYsMS4zLDAuOSwyLjEsMC45czEuNi0wLjMsMi4xLTAuOQ0KCQlsMi4xLTIuMWwyLjUsMWMwLjcsMC4zLDEuMiwxLDEuMiwxLjh2NmMwLDAuNiwwLjQsMSwxLDFzMS0wLjQsMS0xdi02YzAtMS42LTEtMy4xLTIuNS0zLjdsLTEuNy0wLjdsNS4yLTUuMmwxLjQsMS40DQoJCWMwLjgsMC44LDEuOCwxLjIsMi45LDEuMmMwLjksMCwxLjgtMC4zLDIuNS0wLjlsMi45LTIuM0MzMS4xLDEzLjQsMzEuMSwxMi44LDMwLjgsMTIuNHoiLz4NCjwvZz4NCjwvc3ZnPg0K",
+      "name": "PlatformerCharacterAnimator",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Sports and Fitness/Sports and Fitness_training_running_run.svg",
+      "shortDescription": "Change animations and horizontal flipping of a platformer character automatically.",
+      "version": "1.1.0",
+      "description": [
+        "Automatically change the animations and horizontal flipping of a platformer character based on movement and interaction with platform objects.",
+        "",
+        "The platformer example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://platformer))."
+      ],
+      "origin": {
+        "identifier": "PlatformerCharacterAnimator",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "animation",
+        "platformer",
+        "platform",
+        "flip"
+      ],
+      "authorIds": [
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Change animations and horizontal flipping of a platformer character automatically.",
+          "fullName": "Platformer character animator",
+          "name": "PlatformerCharacterAnimator",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Flip character based on input from controls",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::PropertyEnableHorizontalFlipping"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                              },
+                              "parameters": [
+                                "Object",
+                                "PlatformerBehavior",
+                                "\"Left\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                              },
+                              "parameters": [
+                                "Object",
+                                "PlatformerBehavior",
+                                "\"Right\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "FlippableCapability::FlippableBehavior::FlipX"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Flippable",
+                                "yes"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                              },
+                              "parameters": [
+                                "Object",
+                                "PlatformerBehavior",
+                                "\"Right\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                              },
+                              "parameters": [
+                                "Object",
+                                "PlatformerBehavior",
+                                "\"Left\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "FlippableCapability::FlippableBehavior::FlipX"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Flippable",
+                                "no"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Change animations",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::PropertyEnableAnimationChanges"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsJumping"
+                              },
+                              "parameters": [
+                                "Object",
+                                "PlatformerBehavior"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Animation",
+                                "=",
+                                "Object.Behavior::PropertyJumpAnimationName()"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsFalling"
+                              },
+                              "parameters": [
+                                "Object",
+                                "PlatformerBehavior"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Animation",
+                                "=",
+                                "Object.Behavior::PropertyFallAnimationName()"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsOnFloor"
+                              },
+                              "parameters": [
+                                "Object",
+                                "PlatformerBehavior"
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "PlatformerBehavior"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Animation",
+                                    "=",
+                                    "Object.Behavior::PropertyRunAnimationName()"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "PlatformerBehavior"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Animation",
+                                    "=",
+                                    "Object.Behavior::PropertyIdleAnimationName()"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsOnLadder"
+                              },
+                              "parameters": [
+                                "Object",
+                                "PlatformerBehavior"
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Animation",
+                                    "=",
+                                    "Object.Behavior::PropertyClimbAnimationName()"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "PlatformerBehavior"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Animation"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "PlatformerBehavior"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Animation"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "PlatformBehavior::IsOnLadder"
+                              },
+                              "parameters": [
+                                "Object",
+                                "PlatformerBehavior"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Animation"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onActivate",
+              "sentence": "",
+              "events": [
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Flip character based on input from controls",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::PropertyEnableHorizontalFlipping"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                              },
+                              "parameters": [
+                                "Object",
+                                "PlatformerBehavior",
+                                "\"Left\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                              },
+                              "parameters": [
+                                "Object",
+                                "PlatformerBehavior",
+                                "\"Right\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "FlippableCapability::FlippableBehavior::FlipX"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Flip",
+                                "yes"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                              },
+                              "parameters": [
+                                "Object",
+                                "PlatformerBehavior",
+                                "\"Right\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                              },
+                              "parameters": [
+                                "Object",
+                                "PlatformerBehavior",
+                                "\"Left\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "FlippableCapability::FlippableBehavior::FlipX"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Flip",
+                                "no"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Change animations",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::PropertyEnableAnimationChanges"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsJumping"
+                              },
+                              "parameters": [
+                                "Object",
+                                "PlatformerBehavior"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Animation",
+                                "=",
+                                "Object.Behavior::PropertyJumpAnimationName()"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsFalling"
+                              },
+                              "parameters": [
+                                "Object",
+                                "PlatformerBehavior"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Animation",
+                                "=",
+                                "Object.Behavior::PropertyFallAnimationName()"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsOnFloor"
+                              },
+                              "parameters": [
+                                "Object",
+                                "PlatformerBehavior"
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "PlatformerBehavior"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Animation",
+                                    "=",
+                                    "Object.Behavior::PropertyRunAnimationName()"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "PlatformerBehavior"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Animation",
+                                    "=",
+                                    "Object.Behavior::PropertyIdleAnimationName()"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsOnLadder"
+                              },
+                              "parameters": [
+                                "Object",
+                                "PlatformerBehavior"
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Animation",
+                                    "=",
+                                    "Object.Behavior::PropertyClimbAnimationName()"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "PlatformerBehavior"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Animation"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "PlatformerBehavior"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Animation"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "PlatformBehavior::IsOnLadder"
+                              },
+                              "parameters": [
+                                "Object",
+                                "PlatformerBehavior"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Animation"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Enable (or disable) automated animation changes a platformer character. Disabling animation changes is useful to play custom animations.",
+              "fullName": "Enable (or disable) automated animation changes",
+              "functionType": "Action",
+              "name": "EnableChangingAnimations",
+              "sentence": "Enable automated animation changes on _PARAM0_: _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetPropertyEnableAnimationChanges"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GetArgumentAsBoolean"
+                      },
+                      "parameters": [
+                        "\"EnableAnimationChanges\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetPropertyEnableAnimationChanges"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+                  "type": "behavior"
+                },
+                {
+                  "defaultValue": "yes",
+                  "description": "Change animations automatically",
+                  "name": "EnableAnimationChanges",
+                  "optional": true,
+                  "type": "yesorno"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Enable (or disable) automated horizontal flipping of a platform character.",
+              "fullName": "Enable (or disable) automated horizontal flipping",
+              "functionType": "Action",
+              "name": "EnableHorizontalFlipping",
+              "sentence": "Enable automated horizontal flipping on _PARAM0_: _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetPropertyEnableHorizontalFlipping"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GetArgumentAsBoolean"
+                      },
+                      "parameters": [
+                        "\"EnableHorizontalFlipping\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetPropertyEnableHorizontalFlipping"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+                  "type": "behavior"
+                },
+                {
+                  "defaultValue": "yes",
+                  "description": "Enable horizontal flipping",
+                  "name": "EnableHorizontalFlipping",
+                  "optional": true,
+                  "type": "yesorno"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set the \"Idle\" animation name. Do not use quotation marks.",
+              "fullName": "\"Idle\" animation name",
+              "functionType": "Action",
+              "group": "Configure animations",
+              "name": "SetIdleAnimationName",
+              "sentence": "Set \"Idle\" animation of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetPropertyIdleAnimationName"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsString(\"AnimationName\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Animation name",
+                  "name": "AnimationName",
+                  "type": "string"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set the \"Move\" animation name. Do not use quotation marks.",
+              "fullName": "\"Move\" animation name",
+              "functionType": "Action",
+              "group": "Configure animations",
+              "name": "SetMoveAnimationName",
+              "sentence": "Set \"Move\" animation of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetPropertyRunAnimationName"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsString(\"AnimationName\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Animation name",
+                  "name": "AnimationName",
+                  "type": "string"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set the \"Jump\" animation name. Do not use quotation marks.",
+              "fullName": "\"Jump\" animation name",
+              "functionType": "Action",
+              "group": "Configure animations",
+              "name": "SetJumpAnimationName",
+              "sentence": "Set \"Jump\" animation of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetPropertyJumpAnimationName"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsString(\"AnimationName\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Animation name",
+                  "name": "AnimationName",
+                  "type": "string"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set the \"Fall\" animation name. Do not use quotation marks.",
+              "fullName": "\"Fall\" animation name",
+              "functionType": "Action",
+              "group": "Configure animations",
+              "name": "SetFallAnimationName",
+              "sentence": "Set \"Fall\" animation of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetPropertyFallAnimationName"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsString(\"AnimationName\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Animation name",
+                  "name": "AnimationName",
+                  "type": "string"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set the \"Climb\" animation name. Do not use quotation marks.",
+              "fullName": "\"Climb\" animation name",
+              "functionType": "Action",
+              "group": "Configure animations",
+              "name": "SetClimbAnimationName",
+              "sentence": "Set \"Climb\" animation of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetPropertyClimbAnimationName"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsString(\"AnimationName\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Animation name",
+                  "name": "AnimationName",
+                  "type": "string"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "true",
+              "type": "Boolean",
+              "label": "Enable animation changes",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "name": "EnableAnimationChanges"
+            },
+            {
+              "value": "true",
+              "type": "Boolean",
+              "label": "Enable horizontal flipping",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "name": "EnableHorizontalFlipping"
+            },
+            {
+              "value": "Idle",
+              "type": "String",
+              "label": "\"Idle\" animation name ",
+              "description": "",
+              "group": "Animation names",
+              "extraInformation": [],
+              "name": "IdleAnimationName"
+            },
+            {
+              "value": "Run",
+              "type": "String",
+              "label": "\"Run\" animation name",
+              "description": "",
+              "group": "Animation names",
+              "extraInformation": [],
+              "name": "RunAnimationName"
+            },
+            {
+              "value": "Jump",
+              "type": "String",
+              "label": "\"Jump\" animation name",
+              "description": "",
+              "group": "Animation names",
+              "extraInformation": [],
+              "name": "JumpAnimationName"
+            },
+            {
+              "value": "Fall",
+              "type": "String",
+              "label": "\"Fall\" animation name",
+              "description": "",
+              "group": "Animation names",
+              "extraInformation": [],
+              "name": "FallAnimationName"
+            },
+            {
+              "value": "Climb",
+              "type": "String",
+              "label": "\"Climb\" animation name",
+              "description": "",
+              "group": "Animation names",
+              "extraInformation": [],
+              "name": "ClimbAnimationName"
+            },
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Platformer character",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "PlatformBehavior::PlatformerObjectBehavior"
+              ],
+              "name": "PlatformerBehavior"
+            },
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Animatable capacity",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "AnimatableCapability::AnimatableBehavior"
+              ],
+              "name": "Animation"
+            },
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Flippable capacity",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "FlippableCapability::FlippableBehavior"
+              ],
+              "name": "Flippable"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
     {
       "author": "",
       "category": "Movement",
