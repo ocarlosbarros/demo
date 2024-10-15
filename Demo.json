@@ -1520,6 +1520,330 @@
         "name": "assets\\GameObjects\\Player\\death\\death10.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/boost/boost1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\boost\\boost1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/boost/boost2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\boost\\boost2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/boost/boost3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\boost\\boost3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/boost/boost4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\boost\\boost4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/boost/boost5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\boost\\boost5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/boost/boost6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\boost\\boost6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/boost/boost7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\boost\\boost7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/boost/boost8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\boost\\boost8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/boost/boost9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\boost\\boost9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/boost/boost10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\boost\\boost10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/boost/boost11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\boost\\boost11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/boost/boost12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\boost\\boost12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/boost/boost13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\boost\\boost13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/boost/boost14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\boost\\boost14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/boost/boost15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\boost\\boost15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/boost/boost16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\boost\\boost16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/boost/boost17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\boost\\boost17.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/boost/boost18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\boost\\boost18.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/charging/charging1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\charging\\charging1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/charging/charging2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\charging\\charging2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/charging/charging3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\charging\\charging3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/charging/charging4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\charging\\charging4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/charging/charging5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\charging\\charging5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/charging/charging6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\charging\\charging6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/charging/charging7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\charging\\charging7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/charging/charging8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\charging\\charging8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/charging/charging9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\charging\\charging9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/charging/charging10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\charging\\charging10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/charging/charging11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\charging\\charging11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/charging/charging12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\charging\\charging12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/charging/charging13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\charging\\charging13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/charging/charging14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\charging\\charging14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/charging/charging15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\charging\\charging15.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/charging/charging16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\charging\\charging16.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/charging/charging17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\charging\\charging17.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameObjects/Player/charging/charging18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameObjects\\Player\\charging\\charging18.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3389,6 +3713,234 @@
               ]
             },
             {
+              "name": "charging",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\charging\\charging1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\charging\\charging2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\charging\\charging3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\charging\\charging4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\charging\\charging5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GameObjects\\Player\\charging\\charging6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 43
+                          },
+                          {
+                            "x": 47,
+                            "y": 64
+                          },
+                          {
+                            "x": 19,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "name": "jump",
               "useMultipleDirections": false,
               "directions": [
@@ -4265,7 +4817,17 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Move Left",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -4319,7 +4881,20 @@
                   ]
                 }
               ]
-            },
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Move Right",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -4373,7 +4948,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -4404,42 +4980,65 @@
           "actions": [],
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Charge Jump",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
                 {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Space"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Space"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"charging\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "JumpCharge",
+                        "Text",
+                        "=",
+                        "\"Jump Charge: \" + ToString(roundTo(Player.jumpCharge, 2))"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "jumpCharge",
+                        "+",
+                        "roundTo(TimeDelta(),2)"
+                      ]
+                    }
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "JumpCharge",
-                    "Text",
-                    "=",
-                    "\"Jump Charge: \" + ToString(roundTo(Player.jumpCharge, 2))"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "jumpCharge",
-                    "+",
-                    "roundTo(TimeDelta(),2)"
-                  ]
-                }
-              ]
+              "parameters": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -4491,7 +5090,7 @@
                     "Player",
                     "Animation",
                     "=",
-                    "\"jump\""
+                    "\"charging\""
                   ]
                 },
                 {
@@ -4584,17 +5183,6 @@
                 },
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Animation",
-                    "=",
-                    "\"jump\""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
@@ -4679,17 +5267,6 @@
               "parameters": [
                 "Player",
                 "PlatformerObject"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Player",
-                "Animation",
-                "=",
-                "\"jump\""
               ]
             },
             {
