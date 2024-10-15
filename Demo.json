@@ -1844,6 +1844,20 @@
         "name": "assets\\GameObjects\\Player\\charging\\charging18.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/Jump_Start_02.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "9c8237a3043192d3d8d89a4ef41577a286c4239f011bf02c5fbc9ee11c032a66_Jump_Start_02.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Sand/Jump/9c8237a3043192d3d8d89a4ef41577a286c4239f011bf02c5fbc9ee11c032a66_Jump_Start_02.wav",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -2535,8 +2549,8 @@
           "name": "Player",
           "persistentUuid": "480b67d2-f71a-4ac5-a513-3a5da023bb76",
           "width": 70,
-          "x": 761,
-          "y": 620,
+          "x": 706,
+          "y": 616,
           "zOrder": 206,
           "numberProperties": [],
           "stringProperties": [],
@@ -2875,6 +2889,12 @@
               "name": "isParabolicJump",
               "type": "boolean",
               "value": false
+            },
+            {
+              "folded": true,
+              "name": "jumpDirection",
+              "type": "string",
+              "value": "\"\""
             }
           ],
           "effects": [],
@@ -4987,58 +5007,68 @@
               "name": "Charge Jump",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
-              "events": [
+              "events": [],
+              "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Space"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Animation",
-                        "=",
-                        "\"charging\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "JumpCharge",
-                        "Text",
-                        "=",
-                        "\"Jump Charge: \" + ToString(roundTo(Player.jumpCharge, 2))"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Player",
-                        "jumpCharge",
-                        "+",
-                        "roundTo(TimeDelta(),2)"
-                      ]
-                    }
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
                   ]
                 }
               ],
-              "parameters": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"charging\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "JumpCharge",
+                    "Text",
+                    "=",
+                    "\"Jump Charge: \" + ToString(roundTo(Player.jumpCharge, 2))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "jumpCharge",
+                    "+",
+                    "roundTo(TimeDelta(),2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "isParabolicJump",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -5128,13 +5158,13 @@
                 },
                 {
                   "type": {
-                    "value": "AddForceXY"
+                    "value": "SetStringObjectVariable"
                   },
                   "parameters": [
                     "Player",
-                    "Player.jumpPower",
-                    "-500",
-                    ""
+                    "jumpDirection",
+                    "=",
+                    "\"RIGHT\""
                   ]
                 }
               ]
@@ -5205,24 +5235,13 @@
                 },
                 {
                   "type": {
-                    "value": "PlatformBehavior::Acceleration"
+                    "value": "SetStringObjectVariable"
                   },
                   "parameters": [
                     "Player",
-                    "PlatformerObject",
+                    "jumpDirection",
                     "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceXY"
-                  },
-                  "parameters": [
-                    "Player",
-                    "-Player.jumpPower",
-                    "-500",
-                    ""
+                    "\"LEFT\""
                   ]
                 }
               ]
@@ -5230,23 +5249,26 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Execute Jump",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "PlatformBehavior::IsOnFloor"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                },
                 {
                   "type": {
                     "value": "KeyReleased"
@@ -5256,250 +5278,440 @@
                     "Space"
                   ]
                 }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::SimulateJumpKey"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "JumpCharge",
-                "Text",
-                "=",
-                "\"Jump Charge: \" + ToString(roundTo(Player.jumpCharge, 2))"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlatformBehavior::Acceleration"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject",
-                "=",
-                "1500"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "isParabolicJump",
-                    "False",
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "isParabolicJump",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "jumpCharge",
-                    "<=",
-                    "0.60"
-                  ]
-                }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateJumpKey"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                },
                 {
                   "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "JumpPower",
+                    "JumpCharge",
                     "Text",
                     "=",
-                    "\"Jump Power: \" + ToString(Player.jumpPower)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "jumpPower",
-                    "=",
-                    "100"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "jumpCharge",
-                    "=",
-                    "0.00"
+                    "\"Jump Charge: \" + ToString(roundTo(Player.jumpCharge, 2))"
                   ]
                 }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              ],
+              "events": [
                 {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::And"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Vertical Jump",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
                     {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Player",
-                        "jumpCharge",
-                        ">",
-                        "0.60"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Player",
-                        "jumpCharge",
-                        "<=",
-                        "1.0"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "isParabolicJump",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "small jump\n"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "jumpCharge",
+                                "<=",
+                                "0.60"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "jumpPower",
+                                "=",
+                                "450"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "JumpPower",
+                                "Text",
+                                "=",
+                                "\"Jump Power: \" + ToString(Player.jumpPower)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::JumpSpeed"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject",
+                                "=",
+                                "450"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "jumpCharge",
+                                "=",
+                                "0.00"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "jumpPower",
+                                "=",
+                                "0.00"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "JumpCharge",
+                                "Text",
+                                "=",
+                                "\"Jump Charge: \" + ToString(roundTo(Player.jumpCharge, 2))"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "medium jump"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "NumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "jumpCharge",
+                                    ">",
+                                    "0.60"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "NumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "jumpCharge",
+                                    "<=",
+                                    "1.0"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "jumpPower",
+                                "=",
+                                "600"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "JumpPower",
+                                "Text",
+                                "=",
+                                "\"Jump Power: \" + ToString(Player.jumpPower)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::JumpSpeed"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject",
+                                "=",
+                                "600"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "jumpCharge",
+                                "=",
+                                "0.00"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "jumpPower",
+                                "=",
+                                "0.00"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "JumpCharge",
+                                "Text",
+                                "=",
+                                "\"Jump Charge: \" + ToString(roundTo(Player.jumpCharge, 2))"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "high jump"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "jumpCharge",
+                                ">",
+                                "1.00"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "jumpPower",
+                                "=",
+                                "750"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "JumpPower",
+                                "Text",
+                                "=",
+                                "\"Jump Power: \" + ToString(Player.jumpPower)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::JumpSpeed"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject",
+                                "=",
+                                "750"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "jumpCharge",
+                                "=",
+                                "0.00"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "jumpPower",
+                                "=",
+                                "0.00"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "JumpCharge",
+                                "Text",
+                                "=",
+                                "\"Jump Charge: \" + ToString(roundTo(Player.jumpCharge, 2))"
+                              ]
+                            }
+                          ]
+                        }
                       ]
                     }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "jumpPower",
-                    "=",
-                    "300"
-                  ]
+                  ],
+                  "parameters": []
                 },
                 {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "JumpPower",
-                    "Text",
-                    "=",
-                    "\"Jump Power: \" + ToString(Player.jumpPower)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "jumpCharge",
-                    "=",
-                    "0.00"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "jumpCharge",
-                    ">",
-                    "1.00"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "jumpPower",
-                    "=",
-                    "400"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "JumpPower",
-                    "Text",
-                    "=",
-                    "\"Jump Power: \" + ToString(Player.jumpPower)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "jumpCharge",
-                    "=",
-                    "0.00"
-                  ]
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Horizontal Jump",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "isParabolicJump",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "NumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "jumpCharge",
+                                    "<=",
+                                    "0.60"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "jumpDirection",
+                                    "=",
+                                    "\"RIGHT\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": []
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
