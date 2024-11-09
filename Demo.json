@@ -1558,6 +1558,66 @@
         "name": "assets\\UI\\Background\\BackgroundMenu.jpg",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Sound/button-124476.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound\\button-124476.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Music/TwCl2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Music\\TwCl2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sound/MiadoDuplo.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound\\MiadoDuplo.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Audio/music_theme.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\music_theme.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Audio/FX/DoubleMeow.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\FX\\DoubleMeow.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Audio/FX/ButtonEffect.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\FX\\ButtonEffect.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -5300,7 +5360,7 @@
               },
               "parameters": [
                 "",
-                "button-124476.mp3",
+                "assets\\Audio\\FX\\ButtonEffect.mp3",
                 "2",
                 "no",
                 "",
@@ -5408,7 +5468,7 @@
               },
               "parameters": [
                 "",
-                "TwCl2.wav",
+                "assets\\Audio\\music_theme.wav",
                 "1",
                 "yes",
                 "50",
@@ -5603,7 +5663,7 @@
               },
               "parameters": [
                 "",
-                "MiadoDuplo.mp3",
+                "assets\\Audio\\FX\\DoubleMeow.mp3",
                 "2",
                 "",
                 "",
