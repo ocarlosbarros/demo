@@ -1725,6 +1725,87 @@
         "name": "assets\\Art\\Enviroment\\Level3\\Building.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Art/Enviroment/Level4/Building.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Art\\Enviroment\\Level4\\Building.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Art/Enviroment/Level4/Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Art\\Enviroment\\Level4\\Background.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Art/Enviroment/Level6/Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Art\\Enviroment\\Level6\\Background.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlatformJumpThrow.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlatformJumpThrow",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Art/Enviroment/Level6/PlatformJumpThrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Art\\Enviroment\\Level6\\PlatformJumpThrow.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Art/Enviroment/Level7/Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Art\\Enviroment\\Level7\\Background.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Art/Enviroment/Global/BuildingDoor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Art\\Enviroment\\Global\\BuildingDoor.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Art/Enviroment/Global/Platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Art\\Enviroment\\Global\\Platform.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Art/Enviroment/Level5/Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Art\\Enviroment\\Level5\\Background.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2200,19 +2281,8 @@
     },
     {
       "assetStoreId": "",
-      "height": 32,
-      "name": "StartPoint",
-      "texture": "NewTiledSprite5",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
       "height": 64,
-      "name": "NewTiledSprite",
+      "name": "Wall",
       "texture": "assets\\Art\\Enviroment\\Global\\Wall.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
@@ -2249,7 +2319,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite29",
+                  "image": "assets\\Art\\Enviroment\\Global\\Platform.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2318,7 +2388,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite31",
+                  "image": "assets\\Art\\Enviroment\\Global\\BuildingDoor.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4086,10 +4156,7 @@
         "objectName": "NextLevelZone"
       },
       {
-        "objectName": "StartPoint"
-      },
-      {
-        "objectName": "NewTiledSprite"
+        "objectName": "Wall"
       },
       {
         "objectName": "BuildingDoor"
@@ -5859,10 +5926,6 @@
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
-          "name": "RemapForPlatformer",
-          "type": "BehaviorRemapper::RemapForPlatformer"
-        },
-        {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
         },
@@ -6136,7 +6199,7 @@
           "height": 672,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Wall",
           "persistentUuid": "96957f32-ff35-4e8d-94fa-61b0fe0f8d70",
           "width": 431,
           "x": 804,
@@ -6153,7 +6216,7 @@
           "height": 669,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Wall",
           "persistentUuid": "3eb6a0d9-e03e-4ffa-9d61-f3db8f431551",
           "width": 403,
           "x": -2,
@@ -7426,7 +7489,7 @@
           "height": 146,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Wall",
           "persistentUuid": "fe514c0c-abdf-453e-9ac2-ff12f7f47846",
           "width": 404,
           "x": 1,
@@ -7443,7 +7506,7 @@
           "height": 244,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Wall",
           "persistentUuid": "150775cc-f852-4205-aa8d-573be0cd738b",
           "width": 558,
           "x": 721,
@@ -9384,7 +9447,7 @@
           "height": 223,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Wall",
           "persistentUuid": "606ddc1d-94bf-4420-b860-f2ecaf64f8a0",
           "width": 309,
           "x": 0,
@@ -9401,7 +9464,7 @@
           "height": 381,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Wall",
           "persistentUuid": "45b35c31-6889-42e7-96e8-2e69c0d67004",
           "width": 337,
           "x": 945,
@@ -10194,7 +10257,7 @@
           "height": 735,
           "keepRatio": true,
           "layer": "",
-          "name": "FundoLvl4",
+          "name": "Background",
           "persistentUuid": "f1e366cb-4515-49bf-bdea-476dbab12e79",
           "width": 1285,
           "x": 0,
@@ -10245,7 +10308,7 @@
           "height": 483,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Wall",
           "persistentUuid": "cfab5f65-7b1a-4d5d-9c78-62d1adb9d366",
           "width": 283,
           "x": -3,
@@ -10279,7 +10342,7 @@
           "height": 308,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Wall",
           "persistentUuid": "9d842cb2-f8f6-48d0-ad41-b20fc882f1f9",
           "width": 460,
           "x": 428,
@@ -10296,7 +10359,7 @@
           "height": 311,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Wall",
           "persistentUuid": "356e826f-4577-4bf9-a775-298aa6f80df7",
           "width": 182,
           "x": 1102,
@@ -10362,68 +10425,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Building",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Building.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "FundoLvl4",
+          "name": "Background",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -10440,7 +10442,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Assetinhos\\Background city\\Background city\\city 4\\9.png",
+                      "image": "assets\\Art\\Enviroment\\Level4\\Background.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10485,10 +10487,7 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "Building"
-          },
-          {
-            "objectName": "FundoLvl4"
+            "objectName": "Background"
           }
         ]
       },
@@ -10907,15 +10906,6 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
-          "name": "Physics2",
-          "type": "Physics2::Physics2Behavior",
-          "gravityX": 0,
-          "gravityY": 9.8,
-          "worldScale": 100,
-          "scaleX": 100,
-          "scaleY": 100
-        },
-        {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
         },
@@ -10924,24 +10914,12 @@
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
-          "name": "RemapForPlatformer",
-          "type": "BehaviorRemapper::RemapForPlatformer"
-        },
-        {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
         },
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -10995,7 +10973,7 @@
           "height": 721,
           "keepRatio": true,
           "layer": "",
-          "name": "FundoLvl5",
+          "name": "Background",
           "persistentUuid": "8603e1a1-8bc4-42ca-8bbe-096401180309",
           "width": 1287,
           "x": -3,
@@ -11012,7 +10990,7 @@
           "height": 243,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Wall",
           "persistentUuid": "2c47b405-131b-4dc9-a599-d23de9249523",
           "width": 1287,
           "x": -3,
@@ -11075,28 +11053,12 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "8d68cf6a-c84e-4a1d-b9b9-bf7ec8c05630",
-          "width": 0,
-          "x": 265,
-          "y": 398,
-          "zOrder": 33,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 97,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "BigBox",
           "persistentUuid": "05340a50-d588-4bd9-9997-79b1cd0993e1",
           "width": 96,
           "x": 496,
@@ -11108,32 +11070,51 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "6b16d651-e5d2-4004-92ec-7daa2c7d56c6",
-          "width": 0,
-          "x": 658,
+          "name": "Box",
+          "persistentUuid": "65582e2a-f8cd-4ca9-a709-a666cf5eda33",
+          "width": 48,
+          "x": 265,
           "y": 399,
-          "zOrder": 35,
+          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "679ec085-fd81-49e9-82fe-7818acfbe34a",
-          "width": 0,
+          "name": "Box",
+          "persistentUuid": "f58ddd1f-20be-47a3-becb-99e3aec9b3d8",
+          "width": 48,
+          "x": 658,
+          "y": 399,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Box",
+          "persistentUuid": "8f53ef6a-b053-4ab3-b7db-af864d3d2b08",
+          "width": 48,
           "x": 1027,
           "y": 399,
-          "zOrder": 36,
+          "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11143,137 +11124,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Building",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Building.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Rope",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "Ladder",
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "corda",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Rope.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 26,
-                            "y": 0
-                          },
-                          {
-                            "x": 26,
-                            "y": 64
-                          },
-                          {
-                            "x": 1,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "FundoLvl5",
+          "name": "Background",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -11290,7 +11141,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Assetinhos\\Background city\\Background city\\city 5\\6.png",
+                      "image": "assets\\Art\\Enviroment\\Level5\\Background.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11310,16 +11161,16 @@
                             "y": 0
                           },
                           {
-                            "x": 576,
+                            "x": 2304,
                             "y": 0
                           },
                           {
-                            "x": 576,
-                            "y": 324
+                            "x": 2304,
+                            "y": 1296
                           },
                           {
                             "x": 0,
-                            "y": 324
+                            "y": 1296
                           }
                         ]
                       ]
@@ -11333,7 +11184,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "BigBox",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -11358,7 +11209,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Assetinhos\\cardboardbox\\box after.png",
+                      "image": "assets\\Art\\Enviroment\\Global\\CardboardBox\\box.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11403,16 +11254,10 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "Building"
+            "objectName": "Background"
           },
           {
-            "objectName": "Rope"
-          },
-          {
-            "objectName": "FundoLvl5"
-          },
-          {
-            "objectName": "NewSprite"
+            "objectName": "BigBox"
           }
         ]
       },
@@ -11835,15 +11680,6 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
-          "name": "Physics2",
-          "type": "Physics2::Physics2Behavior",
-          "gravityX": 0,
-          "gravityY": 9.8,
-          "worldScale": 100,
-          "scaleX": 100,
-          "scaleY": 100
-        },
-        {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
         },
@@ -11852,20 +11688,12 @@
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
-          "name": "RemapForPlatformer",
-          "type": "BehaviorRemapper::RemapForPlatformer"
-        },
-        {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
         },
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -11889,7 +11717,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.40556816272995266,
+        "zoomFactor": 1.4783698646269923,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11919,7 +11747,7 @@
           "height": 785,
           "keepRatio": true,
           "layer": "",
-          "name": "FundoLvl6",
+          "name": "Background",
           "persistentUuid": "ef31029e-793d-4c2f-8eea-332e60a552f2",
           "width": 1282,
           "x": -2,
@@ -11936,7 +11764,7 @@
           "height": 384,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Wall",
           "persistentUuid": "286b9ec7-cac3-44de-84d8-3482a940e225",
           "width": 291,
           "x": -2,
@@ -12003,7 +11831,7 @@
           "height": 619,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Wall",
           "persistentUuid": "cf551438-89c2-4741-922f-ee26221a063f",
           "width": 683,
           "x": 598,
@@ -12221,23 +12049,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 13,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite2",
-          "persistentUuid": "7bf5ded7-7bca-4287-9418-bab4d5752726",
-          "width": 133,
-          "x": 886,
-          "y": 160,
-          "zOrder": 35,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 32,
           "keepRatio": true,
           "layer": "",
@@ -12247,40 +12058,6 @@
           "x": 597,
           "y": 75,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 75,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite3",
-          "persistentUuid": "fe24b8a3-5b55-4163-8c51-13bcd66c8ab9",
-          "width": 11,
-          "x": 886,
-          "y": 98,
-          "zOrder": 36,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 75,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite3",
-          "persistentUuid": "54602690-cf73-459b-b345-78d9df4b8323",
-          "width": 11,
-          "x": 1008,
-          "y": 98,
-          "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12318,51 +12095,26 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 235,
+          "keepRatio": true,
+          "layer": "",
+          "name": "JumpthruPlatform",
+          "persistentUuid": "f6dc8671-09fe-49cb-9f6c-dcc3c1681e8b",
+          "width": 292,
+          "x": 821,
+          "y": 99,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
-        {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "TutorialText",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "tutorial  a,w,d",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 20,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": true,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "tutorial  a,w,d",
-            "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 20,
-            "color": "255;255;255"
-          }
-        },
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
@@ -12384,7 +12136,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\KillZone.png",
+                      "image": "assets\\Art\\Enviroment\\Global\\KillZone.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12427,206 +12179,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Rope",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "Ladder",
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "NewSprite3",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Rope.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 26,
-                            "y": 0
-                          },
-                          {
-                            "x": 26,
-                            "y": 64
-                          },
-                          {
-                            "x": 1,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Building",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "predio2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\Building.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "JumpThruPlatform",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "plataforma",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\GameObjects\\JumpThruPlatform.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "FundoLvl6",
+          "name": "Background",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -12643,7 +12196,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Assetinhos\\Background city\\Background city\\city 6\\8.png",
+                      "image": "assets\\Art\\Enviroment\\Level6\\Background.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12684,9 +12237,9 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "NewSprite2",
+          "name": "JumpthruPlatform",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -12696,13 +12249,13 @@
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
+              "platformType": "Jumpthru",
               "yGrabOffset": 0
             }
           ],
           "animations": [
             {
-              "name": "NewSprite2",
+              "name": "JumpthruPlatform",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -12712,7 +12265,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite32",
+                      "image": "assets\\Art\\Enviroment\\Level6\\PlatformJumpThrow.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12728,20 +12281,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 17,
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 41,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 41,
+                            "y": 17
                           },
                           {
-                            "x": 0,
-                            "y": 64
+                            "x": 17,
+                            "y": 17
                           }
                         ]
                       ]
@@ -12751,109 +12304,19 @@
               ]
             }
           ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite3",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite3",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite33",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite5",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "Building"
-          },
-          {
-            "objectName": "TutorialText"
-          },
-          {
             "objectName": "KillZone"
           },
           {
-            "objectName": "Rope"
+            "objectName": "Background"
           },
           {
-            "objectName": "JumpThruPlatform"
-          },
-          {
-            "objectName": "FundoLvl6"
-          },
-          {
-            "objectName": "NewSprite2"
-          },
-          {
-            "objectName": "NewSprite3"
-          },
-          {
-            "objectName": "NewSprite5"
+            "objectName": "JumpthruPlatform"
           }
         ]
       },
@@ -13264,20 +12727,12 @@
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
-          "name": "RemapForPlatformer",
-          "type": "BehaviorRemapper::RemapForPlatformer"
-        },
-        {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
         },
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -13331,7 +12786,7 @@
           "height": 406,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Wall",
           "persistentUuid": "da5ae933-fd00-4235-b816-a16eee7c7325",
           "width": 290,
           "x": -5,
@@ -13348,7 +12803,7 @@
           "height": 510,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Wall",
           "persistentUuid": "283aafae-550f-455b-9cd4-ac070ae355fe",
           "width": 473,
           "x": 431,
@@ -13365,7 +12820,7 @@
           "height": 600,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Wall",
           "persistentUuid": "33ebed94-6e28-4815-bb92-2108b4d8f810",
           "width": 217,
           "x": 1063,
@@ -13594,7 +13049,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Assetinhos\\Background city\\Background city\\city 8\\7.png",
+                      "image": "assets\\Art\\Enviroment\\Level7\\Background.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13968,15 +13423,6 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
-          "name": "Physics2",
-          "type": "Physics2::Physics2Behavior",
-          "gravityX": 0,
-          "gravityY": 9.8,
-          "worldScale": 100,
-          "scaleX": 100,
-          "scaleY": 100
-        },
-        {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
         },
@@ -13985,20 +13431,12 @@
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
-          "name": "RemapForPlatformer",
-          "type": "BehaviorRemapper::RemapForPlatformer"
-        },
-        {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
         },
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
