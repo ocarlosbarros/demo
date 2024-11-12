@@ -5722,23 +5722,11 @@
             },
             {
               "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "Player",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
-                "assets\\Audio\\music_theme_first_scene.mp3",
+                "assets\\Audio\\music_theme_tutorial.mp3",
                 "1",
                 "yes",
                 "",
@@ -6417,6 +6405,14 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "KillZone"
+              ]
             }
           ]
         },
@@ -6426,6 +6422,47 @@
             "includeConfig": 0
           },
           "target": "PlayerEvents"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Restart Level"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "KillZone",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level2\"",
+                ""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
