@@ -2049,6 +2049,24 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LeftBound.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LeftBound",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Art/Enviroment/Global/BoundaryCamera.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Art\\Enviroment\\Global\\BoundaryCamera.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2155,47 +2173,6 @@
                       }
                     ]
                   ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NextLevelZone",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\Art\\Enviroment\\Global\\NextLevelZone.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
                 }
               ]
             }
@@ -2816,6 +2793,7 @@
       "effects": [],
       "behaviors": [
         {
+          "isFolded": true,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
@@ -2836,6 +2814,7 @@
           "yGrabOffset": 0
         },
         {
+          "isFolded": true,
           "name": "RemapForPlatformer",
           "type": "BehaviorRemapper::RemapForPlatformer",
           "Up": "",
@@ -2844,6 +2823,58 @@
           "Right": "d",
           "Jump": "",
           "Platformer": "PlatformerObject"
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera",
+          "LeftwardSpeed": 0.9,
+          "RightwardSpeed": 0.9,
+          "UpwardSpeed": 0.9,
+          "DownwardSpeed": 0.9,
+          "FollowOnX": true,
+          "FollowOnY": true,
+          "FollowFreeAreaLeft": 0,
+          "FollowFreeAreaRight": 0,
+          "FollowFreeAreaTop": 0,
+          "FollowFreeAreaBottom": 0,
+          "CameraOffsetX": 0,
+          "CameraOffsetY": 0,
+          "CameraDelay": 0,
+          "ForecastTime": 0,
+          "ForecastHistoryDuration": 0,
+          "LogLeftwardSpeed": 2.0247e-320,
+          "LogRightwardSpeed": 2.0247e-320,
+          "LogDownwardSpeed": 2.0247e-320,
+          "LogUpwardSpeed": 2.0247e-320,
+          "DelayedCenterX": 2.0247e-320,
+          "DelayedCenterY": 2.0247e-320,
+          "ForecastHistoryMeanX": 2.0247e-320,
+          "ForecastHistoryMeanY": 2.0247e-320,
+          "ForecastHistoryVarianceX": 2.0247e-320,
+          "ForecastHistoryCovariance": 2.0247e-320,
+          "ForecastHistoryLinearA": 2.0247e-320,
+          "ForecastHistoryLinearB": 2.0247e-320,
+          "ForecastedX": 2.0247e-320,
+          "ForecastedY": 2.0247e-320,
+          "ProjectedNewestX": 2.0247e-320,
+          "ProjectedNewestY": 2.0247e-320,
+          "ProjectedOldestX": 2.0247e-320,
+          "ProjectedOldestY": 2.0247e-320,
+          "ForecastHistoryVarianceY": 2.0247e-320,
+          "Index": 2.0247e-320,
+          "CameraDelayCatchUpSpeed": 0,
+          "CameraExtraDelay": 2.0247e-320,
+          "WaitingSpeedXMax": 2.0247e-320,
+          "WaitingSpeedYMax": 2.0247e-320,
+          "WaitingEnd": 2.0247e-320,
+          "CameraDelayCatchUpDuration": 2.0247e-320,
+          "LeftwardSpeedMax": 9000,
+          "RightwardSpeedMax": 9000,
+          "UpwardSpeedMax": 9000,
+          "DownwardSpeedMax": 9000,
+          "OldX": 9000.000000007454,
+          "OldY": 9000.000000007454,
+          "IsCalledManually": false
         }
       ],
       "animations": [
@@ -2896,6 +2927,323 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "LeftBound",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Art\\Enviroment\\Global\\BoundaryCamera.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TopBound",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Art\\Enviroment\\Global\\BoundaryCamera.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BottomBound",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Art\\Enviroment\\Global\\BoundaryCamera.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "RightBound",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Art\\Enviroment\\Global\\BoundaryCamera.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NextLevelZone",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Art\\Enviroment\\Global\\NextLevelZone.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2923,9 +3271,6 @@
         "objectName": "Boundary"
       },
       {
-        "objectName": "NextLevelZone"
-      },
-      {
         "objectName": "Wall"
       },
       {
@@ -2938,7 +3283,22 @@
         "objectName": "Platform"
       },
       {
+        "objectName": "NextLevelZone"
+      },
+      {
         "objectName": "Player"
+      },
+      {
+        "objectName": "LeftBound"
+      },
+      {
+        "objectName": "TopBound"
+      },
+      {
+        "objectName": "RightBound"
+      },
+      {
+        "objectName": "BottomBound"
       },
       {
         "objectName": "StreetLight"
@@ -4972,7 +5332,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.3383630207301798,
+        "zoomFactor": 0.49485982917758886,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5053,23 +5413,6 @@
           "x": 1280,
           "y": 336,
           "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "Layer",
-          "name": "NextLevelZone",
-          "persistentUuid": "1b4bbfe8-5d26-4ea2-8562-3d9d660832bd",
-          "width": 768,
-          "x": 0,
-          "y": -18,
-          "zOrder": 203,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5178,13 +5521,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 672,
-          "keepRatio": true,
+          "depth": 1.0029761904761902,
+          "height": 674,
           "layer": "",
           "name": "Wall",
           "persistentUuid": "96957f32-ff35-4e8d-94fa-61b0fe0f8d70",
-          "width": 431,
+          "width": 805,
           "x": 804,
           "y": 3,
           "zOrder": 3,
@@ -5297,13 +5639,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 32,
+          "height": 30,
           "layer": "",
           "name": "Ground",
           "persistentUuid": "53fa934e-2463-40f5-ba3f-9953ef490610",
-          "width": 1280,
+          "width": 1608,
           "x": 0,
-          "y": 672,
+          "y": 674,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -5317,10 +5659,90 @@
           "layer": "",
           "name": "Street",
           "persistentUuid": "9694efbf-7286-474b-a534-3389de69b955",
-          "width": 1280,
+          "width": 1608,
           "x": 0,
-          "y": 707,
+          "y": 704,
           "zOrder": 220,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1026,
+          "layer": "",
+          "name": "RightBound",
+          "persistentUuid": "b94d7325-32db-410d-994a-9be0be980902",
+          "width": 170,
+          "x": 1342,
+          "y": -245,
+          "zOrder": 230,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 130,
+          "layer": "",
+          "name": "TopBound",
+          "persistentUuid": "ec49db63-9010-4daa-86a6-5b18d07a6964",
+          "width": 1659,
+          "x": -235,
+          "y": -130,
+          "zOrder": 230,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 750,
+          "layer": "",
+          "name": "LeftBound",
+          "persistentUuid": "b25c66d1-dc5b-4051-a7b1-9847c25653c1",
+          "width": 109,
+          "x": -108,
+          "y": -14,
+          "zOrder": 230,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 120,
+          "layer": "",
+          "name": "BottomBound",
+          "persistentUuid": "d01658ae-acba-4ec6-bee7-4fdfa255e9e1",
+          "width": 1473,
+          "x": -12,
+          "y": 737,
+          "zOrder": 230,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "",
+          "name": "NextLevelZone",
+          "persistentUuid": "9691b908-107e-4212-9fba-414fa97a5c01",
+          "width": 768,
+          "x": 0,
+          "y": -18,
+          "zOrder": 200,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5715,7 +6137,19 @@
               },
               "parameters": [
                 "Lucky",
-                "1",
+                "2",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
                 "",
                 ""
               ]
@@ -5910,6 +6344,10 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera"
+        },
+        {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
         }
@@ -5935,7 +6373,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.0968710721283008,
+        "zoomFactor": 0.5287961883885461,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5979,14 +6417,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 37,
-          "keepRatio": true,
+          "height": 44,
           "layer": "",
           "name": "KillZone",
           "persistentUuid": "cecb37f4-c188-4be5-abab-19f0a3e8021d",
           "width": 2356,
           "x": -531,
-          "y": 721,
+          "y": 714,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -6013,12 +6450,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 723,
-          "keepRatio": true,
+          "height": 725,
           "layer": "",
           "name": "Background",
           "persistentUuid": "6162a601-908b-4b4d-852d-8dbb431d4215",
-          "width": 1346,
+          "width": 1403,
           "x": -66,
           "y": -5,
           "zOrder": 1,
@@ -6047,7 +6483,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 146,
+          "height": 186,
           "keepRatio": true,
           "layer": "",
           "name": "Wall",
@@ -6064,12 +6500,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 244,
-          "keepRatio": true,
+          "height": 289,
           "layer": "",
           "name": "Wall",
           "persistentUuid": "150775cc-f852-4205-aa8d-573be0cd738b",
-          "width": 558,
+          "width": 617,
           "x": 721,
           "y": 476,
           "zOrder": 28,
@@ -6130,23 +6565,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 368,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NextLevelZone",
-          "persistentUuid": "66d0b30a-ed8f-4649-b977-02138e11f242",
-          "width": 64,
-          "x": 1280,
-          "y": 119,
-          "zOrder": 32,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -6157,6 +6575,86 @@
           "x": 339,
           "y": 621,
           "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 918,
+          "layer": "",
+          "name": "LeftBound",
+          "persistentUuid": "f43a6bb4-4695-400b-922e-0e8ef18e8924",
+          "width": 32,
+          "x": -32,
+          "y": -60,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "TopBound",
+          "persistentUuid": "96f6387b-af7e-4e4e-9d68-813e282bed71",
+          "width": 1335,
+          "x": 0,
+          "y": -32,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 740,
+          "layer": "",
+          "name": "RightBound",
+          "persistentUuid": "3a1021e6-19c0-47ee-9355-b025b8c64940",
+          "width": 32,
+          "x": 1281,
+          "y": -12,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 30,
+          "layer": "",
+          "name": "BottomBound",
+          "persistentUuid": "eabc4d8a-8f79-40c0-829d-e5f2488e8caf",
+          "width": 1454,
+          "x": -6,
+          "y": 720,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 370,
+          "layer": "",
+          "name": "NextLevelZone",
+          "persistentUuid": "44f3bf89-68c9-4049-abad-2892b0ed0c2e",
+          "width": 64,
+          "x": 1280,
+          "y": 120,
+          "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6388,8 +6886,20 @@
               },
               "parameters": [
                 "",
-                "1",
-                "\"Layer\"",
+                "2",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
                 ""
               ]
             },
@@ -6621,6 +7131,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera"
         }
       ]
     },
@@ -6644,7 +7158,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.1720919902895623,
+        "zoomFactor": 0.49485982917758,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -6680,23 +7194,6 @@
           "x": -81,
           "y": 720,
           "zOrder": 204,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 230,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NextLevelZone",
-          "persistentUuid": "04dd262a-824a-4cb1-a4cf-c09384e37190",
-          "width": 43,
-          "x": 1281,
-          "y": 162,
-          "zOrder": 205,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6900,6 +7397,86 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 748,
+          "layer": "",
+          "name": "LeftBound",
+          "persistentUuid": "0fdb731b-fe18-4c40-8756-7f71b0d2ba4c",
+          "width": 32,
+          "x": -31,
+          "y": -34,
+          "zOrder": 220,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "TopBound",
+          "persistentUuid": "ef4d3152-f7b8-4d82-82ad-188703cf65bb",
+          "width": 1373,
+          "x": -5,
+          "y": -33,
+          "zOrder": 220,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "BottomBound",
+          "persistentUuid": "03e4031d-dcf5-4d5c-b592-0f0effc97ce4",
+          "width": 1666,
+          "x": -149,
+          "y": 725,
+          "zOrder": 220,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 960,
+          "layer": "",
+          "name": "RightBound",
+          "persistentUuid": "b1264f3d-2026-4dab-88e7-7989f6a53784",
+          "width": 32,
+          "x": 1283,
+          "y": -56,
+          "zOrder": 220,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 230,
+          "layer": "",
+          "name": "NextLevelZone",
+          "persistentUuid": "5e5983e4-9f4d-4abc-bc44-63785040ac8f",
+          "width": 45,
+          "x": 1281,
+          "y": 162,
+          "zOrder": 205,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -7056,8 +7633,20 @@
               },
               "parameters": [
                 "",
-                "1",
-                "\"Layer\"",
+                "2",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
                 ""
               ]
             },
@@ -7312,7 +7901,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9292665296905034,
+        "zoomFactor": 0.4948598291775793,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7329,25 +7918,8 @@
           "persistentUuid": "ae5b54d9-a91c-42cf-94a2-5e77242a122c",
           "width": 2080,
           "x": -323,
-          "y": 717,
+          "y": 722,
           "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NextLevelZone",
-          "persistentUuid": "aaee9fde-8b26-4139-964d-649fcbd4db32",
-          "width": 679,
-          "x": 455,
-          "y": -63,
-          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7390,25 +7962,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 463,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NextLevelZone",
-          "persistentUuid": "a53db9fb-69bb-446e-91c8-1e1ff9aabba7",
-          "width": 64,
-          "x": 1283,
-          "y": 151,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 483,
-          "keepRatio": true,
+          "height": 512,
           "layer": "",
           "name": "Wall",
           "persistentUuid": "cfab5f65-7b1a-4d5d-9c78-62d1adb9d366",
@@ -7441,8 +7995,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 308,
-          "keepRatio": true,
+          "height": 333,
           "layer": "",
           "name": "Wall",
           "persistentUuid": "9d842cb2-f8f6-48d0-ad41-b20fc882f1f9",
@@ -7458,8 +8011,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 311,
-          "keepRatio": true,
+          "height": 337,
           "layer": "",
           "name": "Wall",
           "persistentUuid": "356e826f-4577-4bf9-a775-298aa6f80df7",
@@ -7534,6 +8086,86 @@
           "x": -2,
           "y": 182,
           "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 860,
+          "layer": "",
+          "name": "LeftBound",
+          "persistentUuid": "5e3de032-cb2a-4d62-a1b3-79aef845bf1a",
+          "width": 32,
+          "x": -33,
+          "y": -104,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "TopBound",
+          "persistentUuid": "eba09310-6759-487e-a1b8-2ca6baabb91e",
+          "width": 1768,
+          "x": -165,
+          "y": -32,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 760,
+          "layer": "",
+          "name": "RightBound",
+          "persistentUuid": "040c2d13-5936-48e4-ada8-61b994f42940",
+          "width": 32,
+          "x": 1280,
+          "y": -15,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "BottomBound",
+          "persistentUuid": "46761d86-8b5d-44ed-ba92-b24d5a807223",
+          "width": 1712,
+          "x": -196,
+          "y": 723,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 545,
+          "layer": "",
+          "name": "NextLevelZone",
+          "persistentUuid": "37a800fc-647c-4212-82a3-969f53604571",
+          "width": 64,
+          "x": 1279,
+          "y": 70,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7629,8 +8261,20 @@
               },
               "parameters": [
                 "",
-                "1",
-                "\"Layer\"",
+                "2",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
                 ""
               ]
             },
@@ -7862,6 +8506,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera"
         }
       ]
     },
@@ -7885,29 +8533,12 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.5797531004738536,
+        "zoomFactor": 0.23856950748820765,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NextLevelZone",
-          "persistentUuid": "b43fbced-d834-44ab-856f-75f1cc7e5ab9",
-          "width": 323,
-          "x": 790,
-          "y": -65,
-          "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -7972,23 +8603,6 @@
           "x": 2,
           "y": 446,
           "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 318,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NextLevelZone",
-          "persistentUuid": "7edab02e-949c-4ea9-97fc-4744651ab5dc",
-          "width": 64,
-          "x": 1281,
-          "y": 260,
-          "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8072,6 +8686,86 @@
           "width": 0,
           "x": 1,
           "y": 414,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 851,
+          "layer": "",
+          "name": "LeftBound",
+          "persistentUuid": "51b5ef20-3037-4a02-81e4-a8b1b058bc93",
+          "width": 32,
+          "x": -31,
+          "y": -55,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "TopBound",
+          "persistentUuid": "007d37a8-6c8b-4746-a77b-701b26327428",
+          "width": 1618,
+          "x": -81,
+          "y": -35,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 767,
+          "layer": "",
+          "name": "RightBound",
+          "persistentUuid": "35563b63-0993-44f9-b838-d35d4f4b162b",
+          "width": 32,
+          "x": 1283,
+          "y": -58,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "BottomBound",
+          "persistentUuid": "66719ad1-83ed-4a6f-a61c-875d70aacb80",
+          "width": 1516,
+          "x": -65,
+          "y": 557,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 318,
+          "layer": "",
+          "name": "NextLevelZone",
+          "persistentUuid": "2305dbc9-bc01-49a8-a0fb-767271b84e77",
+          "width": 64,
+          "x": 1281,
+          "y": 260,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -8239,8 +8933,20 @@
               },
               "parameters": [
                 "",
-                "1",
-                "\"Layer\"",
+                "2",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
                 ""
               ]
             },
@@ -8486,7 +9192,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9929935103321028,
+        "zoomFactor": 0.41924405504724316,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8852,23 +9558,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 473,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NextLevelZone",
-          "persistentUuid": "b8c2fbae-a2d1-4755-a756-d6fdd5d29892",
-          "width": 64,
-          "x": 1278,
-          "y": -2,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 235,
           "keepRatio": true,
           "layer": "",
@@ -8894,6 +9583,86 @@
           "x": 0,
           "y": 281,
           "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1005,
+          "layer": "",
+          "name": "LeftBound",
+          "persistentUuid": "e27207e4-d3a7-4f8e-a851-51b016a0b229",
+          "width": 32,
+          "x": -33,
+          "y": -120,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "TopBound",
+          "persistentUuid": "a4c23965-de8d-431a-aad0-79992c4eae14",
+          "width": 1620,
+          "x": -18,
+          "y": -34,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 760,
+          "layer": "",
+          "name": "RightBound",
+          "persistentUuid": "21454bff-9dac-4c78-bd0c-fd1255fdcf07",
+          "width": 32,
+          "x": 1284,
+          "y": -24,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "BottomBound",
+          "persistentUuid": "f23fdb38-d866-4e1e-b02c-d238fd3e79ce",
+          "width": 1378,
+          "x": -53,
+          "y": 723,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "",
+          "name": "NextLevelZone",
+          "persistentUuid": "03f551e9-66c3-4cd5-aa22-9a1d78117b02",
+          "width": 50,
+          "x": 1284,
+          "y": -31,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9125,8 +9894,8 @@
               },
               "parameters": [
                 "",
-                "1",
-                "\"Layer\"",
+                "2",
+                "",
                 ""
               ]
             },
@@ -9149,6 +9918,18 @@
               },
               "parameters": [
                 "KillZone"
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -9380,7 +10161,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 2.3530036678721644,
+        "zoomFactor": 0.5468750000000014,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -9545,107 +10326,27 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NextLevelZone",
-          "persistentUuid": "76b47ed3-3ce1-4cbe-9eca-b5c5352d66d1",
+          "name": "Player",
+          "persistentUuid": "045d6cbc-1940-46fd-9b96-ec7707243bb6",
           "width": 0,
-          "x": 1512,
-          "y": -40,
-          "zOrder": 8,
+          "x": 0,
+          "y": 253,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
+          "customSize": true,
+          "depth": 0,
+          "height": 956,
           "layer": "",
-          "name": "NextLevelZone",
-          "persistentUuid": "9d9283e1-0976-4031-a07c-20db38f926b0",
-          "width": 0,
-          "x": 1204,
-          "y": 192,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NextLevelZone",
-          "persistentUuid": "d1e024a9-b4db-401e-95d1-4b0a43404a9e",
-          "width": 0,
-          "x": 1339,
-          "y": 110,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NextLevelZone",
-          "persistentUuid": "8df142a2-7faa-4e29-8393-5a4bbb4fda9a",
-          "width": 0,
-          "x": 1174,
-          "y": 165,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NextLevelZone",
-          "persistentUuid": "6e4aa3a8-6905-4fc4-9d08-5ecdb4367165",
-          "width": 0,
-          "x": 1327,
-          "y": 193,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NextLevelZone",
-          "persistentUuid": "e1f4f6bd-4314-4ab2-8f45-097633bcc913",
-          "width": 0,
-          "x": 954,
-          "y": 145,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NextLevelZone",
-          "persistentUuid": "b115f492-9066-4ccf-8dfa-26880610e971",
-          "width": 0,
-          "x": 1229,
-          "y": 21,
+          "name": "LeftBound",
+          "persistentUuid": "87e296a0-5b2a-4365-b316-c21136efc4a2",
+          "width": 32,
+          "x": -33,
+          "y": -109,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -9653,16 +10354,64 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
           "layer": "",
-          "name": "Player",
-          "persistentUuid": "045d6cbc-1940-46fd-9b96-ec7707243bb6",
-          "width": 0,
-          "x": 0,
-          "y": 253,
-          "zOrder": 16,
+          "name": "TopBound",
+          "persistentUuid": "d5e96053-7ac6-4afd-8389-5306b5be91b4",
+          "width": 1367,
+          "x": -8,
+          "y": -33,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 970,
+          "layer": "",
+          "name": "RightBound",
+          "persistentUuid": "e73e6681-c6b6-4d93-9909-72c50dfd3cb5",
+          "width": 32,
+          "x": 1280,
+          "y": -25,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "BottomBound",
+          "persistentUuid": "c43cde8f-c167-478c-bdea-3e72909d6e67",
+          "width": 2168,
+          "x": -566,
+          "y": 722,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 160,
+          "layer": "",
+          "name": "NextLevelZone",
+          "persistentUuid": "67ef5cc3-7f28-4143-8dfe-72fd573680b4",
+          "width": 64,
+          "x": 1268,
+          "y": -16,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9758,8 +10507,8 @@
               },
               "parameters": [
                 "",
-                "1",
-                "\"Layer\"",
+                "2",
+                "",
                 ""
               ]
             },
@@ -9782,6 +10531,18 @@
               },
               "parameters": [
                 "KillZone"
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -11364,6 +12125,13 @@
       "name": "PlayerEvents",
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "CameraEvents"
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -11854,6 +12622,32 @@
                     "1"
                   ]
                 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Level1",
+      "name": "CameraEvents",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "LeftBound.X() + LeftBound.Width()",
+                "TopBound.Y() + TopBound.Height()",
+                "RightBound.X()",
+                "BottomBound.Y()",
+                "",
+                ""
               ]
             }
           ]
