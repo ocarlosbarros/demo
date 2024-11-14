@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 217,
+    "build": 218,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -3146,6 +3146,15 @@
         "name": "assets\\Art\\Characters\\Player\\death\\death10.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Art/Enviroment/Global/Building.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Art\\Enviroment\\Global\\Building.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -5827,6 +5836,84 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Building",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Art\\Enviroment\\Global\\Building.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 387,
+                        "y": 0
+                      },
+                      {
+                        "x": 387,
+                        "y": 645
+                      },
+                      {
+                        "x": 0,
+                        "y": 645
+                      }
+                    ],
+                    [
+                      {
+                        "x": 23,
+                        "y": 453.5
+                      },
+                      {
+                        "x": 380,
+                        "y": 450.5
+                      },
+                      {
+                        "x": 381,
+                        "y": 472.5
+                      },
+                      {
+                        "x": 24,
+                        "y": 473.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -5882,6 +5969,9 @@
       },
       {
         "objectName": "BottomBound"
+      },
+      {
+        "objectName": "Building"
       },
       {
         "objectName": "StreetLight"
@@ -7741,7 +7831,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8696293321335429,
+        "zoomFactor": 1.2524713875764257,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7928,106 +8018,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1.0029761904761902,
-          "height": 674,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "96957f32-ff35-4e8d-94fa-61b0fe0f8d70",
-          "width": 805,
-          "x": 804,
-          "y": 1,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 681,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "3eb6a0d9-e03e-4ffa-9d61-f3db8f431551",
-          "width": 403,
-          "x": -2,
-          "y": -1,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 23,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Platform",
-          "persistentUuid": "0baaba3e-a41d-487f-8e08-e5836291ca69",
-          "width": 120,
-          "x": 805,
-          "y": 436,
-          "zOrder": 223,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 14,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Platform",
-          "persistentUuid": "3f2dd42e-7244-4388-928b-9d416cb2fbf9",
-          "width": 48,
-          "x": 961,
-          "y": 355,
-          "zOrder": 224,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 23,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Platform",
-          "persistentUuid": "c8827d48-178d-4d38-8d95-29c127b3a561",
-          "width": 55,
-          "x": 802,
-          "y": 322,
-          "zOrder": 225,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 26,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Platform",
-          "persistentUuid": "593d3888-5073-4ea0-b33c-b7d5fa203122",
-          "width": 87,
-          "x": 309,
-          "y": 206,
-          "zOrder": 226,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -8150,6 +8140,71 @@
           "x": 0,
           "y": -18,
           "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 962,
+          "layer": "",
+          "name": "Building",
+          "persistentUuid": "da206bf3-36bd-48f3-804e-1420630b95dd",
+          "width": 387,
+          "x": 10,
+          "y": -287,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Building",
+          "persistentUuid": "e3bd4a4b-a241-443c-b968-ad682cc509c0",
+          "width": 0,
+          "x": 835,
+          "y": 29,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "f40c159b-3c98-40b2-af1e-21f3abaa3dd9",
+          "width": 358,
+          "x": 859,
+          "y": 482,
+          "zOrder": 231,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "a785d95e-553c-4061-af4f-0b389365eb06",
+          "width": 24,
+          "x": 839,
+          "y": 318,
+          "zOrder": 225,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
